@@ -1,5 +1,9 @@
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/banner-interno.png')!important
+.banner-interno__titulo h2,
+  color: $white !important
+.banner-interno__titulo__icono
+  background-color: $white !important
 
 .bloque-texto-b.color-secundario:before 
     background-color: #DBE7F0
@@ -166,6 +170,38 @@ td, th
     background-repeat: no-repeat
     background-size: 40% 100% 
 
+.fondo3
+  position: relative
+  .row, p, .row, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 2rem
+    left: 59%
+    width: calc( 100% + 11rem)
+    height: 118%
+    background-image: url("../assets/curso/tema1/img23.svg")
+    background-repeat: no-repeat
+    background-size: 40% 100% 
+
+.bg_imgfondo2_t1
+  position: relative
+  .row, p, h4, .row, p, .row, .row, .row 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 7rem
+    left: -4%
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema1/fondo2_t1.svg")
+    background-repeat: no-repeat
+    background-size: 100% auto  
+
 .vertical_top
   .table * 
   td 
@@ -250,6 +286,54 @@ td, th
 .img-infografica.color-secundario .img-infografica__item__numero,
     color: #DD780A
     font-size: 24px
+
+.bg_imgfondo1_t2
+  position: relative
+  figure, #archivo, p, .row, separador 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: 21rem
+    left: -4%
+    width: calc( 100% + 7rem)
+    height: 76%
+    background-image: url("../assets/curso/tema1/fondo1_t1.svg")
+    background-repeat: no-repeat
+    background-size: 100% auto  
+
+.fondo2-t2
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -11rem
+    left: -4%
+    width: calc( 100% + 11rem)
+    height: 118%
+    background-image: url("../assets/curso/tema1/img19.svg")
+    background-repeat: no-repeat
+    background-size: 40% 100% 
+
+.fondo3-t2
+  position: relative
+  p, p, .row, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -4rem
+    left: 59%
+    width: calc( 100% + 11rem)
+    height: 118%
+    background-image: url("../assets/curso/tema1/img23.svg")
+    background-repeat: no-repeat
+    background-size: 40% 100% 
 
 .bg_color_tarinfo-t2
   background-color: #EFEFEF!important

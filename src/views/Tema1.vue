@@ -55,14 +55,14 @@
           .tarjeta.tarjeta-text1
             img(src="@/assets/curso/tema1/img29.png" alt="Adornos flotantes" style="width: 100% ").mb-3
             .tarjeta-text1__contenido.px-4.pb-4.pt-3
-              h4.text-white.pb-0.pb-lg-4 La empresa cuenta con planes manuales, proyectos y demás, pero no se aplica
+              h4.text-white.pb-0.pb-lg-4 La empresa cuenta con planes manuales, proyectos y demás, pero no se aplica:
               p.text-white.pe-5.pe-lg-0.me-4.me-lg-0 Es una de las variantes que se repiten en la respuesta del funcionario encargado del documento quien, por desconocimiento, hace caso omiso a los parámetros y termina organizando la información sin la ayuda de ningún material. A través de sensibilizaciones, capacitaciones y asignación de roles se ataca este flagelo.
 
         .col-12.col-xxl-6.col-xl-6.col-lg-6.col-md-6
           .tarjeta.tarjeta-text2
             img(src="@/assets/curso/tema1/img30.png" alt="Adornos flotantes" style="width: 100% ").mb-3
             .tarjeta-text2__contenido.px-4.pb-4.pt-3
-              h4.text-white.p-1 La empresa no cuenta con ningún contenido para la orientación de los procesos
+              h4.text-white.p-1 La empresa no cuenta con ningún contenido para la orientación de los procesos:
               p.text-white Aquí es aún más grave y compleja la situación, porque se parte de cero, la única base es el manual de funciones en la que se producen los documentos de manera irracional atropellando las políticas de cero papeles.
       
       p.mb-4 Sea cual sea el panorama de la empresa en la que se trabaje, no se debe descuidar o desechar la información tendiente a la gestión documental, ya que ella es el eslabón que ofrece la entidad al colaborador para manipular adecuadamente la documentación. Toda organización que haga uso de los sistemas de gestión va un paso más allá de aquellas que sus procesos siguen siendo manuales. 
@@ -178,17 +178,35 @@
                   td
                     h4.text-center.mb-0 Para el usuario
                 tr
-                  td.p-3  
-                    p Servicios eficaces en atención a trámites.
-                    p Categoría frente a otras empresas.
-                    p Documentan el ejercicio de las actividades administrativas.
-                    p Garantiza el acceso a la información.
+                  td.p-3 
+                    ul.lista-ul
+                      li 
+                        i.fas.fa-angle-right 
+                        | Servicios eficaces en atención a trámites.
+                      li 
+                        i.fas.fa-angle-right
+                        | Categoría frente a otras empresas.
+                      li 
+                        i.fas.fa-angle-right
+                        | Documentan el ejercicio de las actividades administrativas.
+                      li 
+                        i.fas.fa-angle-right
+                        | Garantiza el acceso a la información.
 
                   td.p-3
-                    p Optimización del tiempo en la gestión de la información.
-                    p Uso adecuado de la Información.
-                    p Confianza en la entidad.
-                    p Satisfacción de necesidades informativas.
+                    ul.lista-ul
+                      li 
+                        i.fas.fa-angle-right 
+                        | Optimización del tiempo en la gestión de la información.
+                      li 
+                        i.fas.fa-angle-right
+                        | Uso adecuado de la Información.
+                      li 
+                        i.fas.fa-angle-right
+                        | Confianza en la entidad.
+                      li 
+                        i.fas.fa-angle-right
+                        | Satisfacción de necesidades informativas.
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right")
         .col-xxl-7.col-xl-7.col-lg-7.col-md-11.col-sm-12.col-12
@@ -216,7 +234,7 @@
                     ul.lista-ul--color
                       li 
                         i.fas.fa-book-open
-                        p.m-0 <b>Numero de radicado:</b> se ingresa el número consecutivo que el sistema otorga a la comunicación recibida.
+                        p.m-0 <b>Número de radicado:</b> se ingresa el número consecutivo que el sistema otorga a la comunicación recibida.
                       li
                         i.fas.fa-book-open
                         p.m-0 <b>Fecha de radicado:</b> día, mes y año en que se oficializó el trámite ante la entidad.
@@ -245,7 +263,7 @@
                     ul.lista-ul--color
                       li 
                         i.fas.fa-book-open
-                        p.m-0 <b>Numero de radicado:</b>  número consecutivo que se le asigna a la comunicación enviada. El último dígito del número de radicado especifica si corresponde a una comunicación recibida, enviada o interna.
+                        p.m-0 <b>Número de radicado:</b>  número consecutivo que se le asigna a la comunicación enviada. El último dígito del número de radicado especifica si corresponde a una comunicación recibida, enviada o interna.
                       li
                         i.fas.fa-book-open
                         p.m-0 <b>Fecha de radicado:</b>  día, mes y año en que se oficializó el trámite de despacho de correspondencia.
@@ -274,7 +292,7 @@
                     ul.lista-ul--color
                       li 
                         i.fas.fa-book-open
-                        p.m-0 <b>Numero de radicado:</b> número consecutivo que se le asigna a la comunicación interna. El último dígito del número de radicado especifica si corresponde a una comunicación recibida, enviada o interna.
+                        p.m-0 <b>Número de radicado:</b> número consecutivo que se le asigna a la comunicación interna. El último dígito del número de radicado especifica si corresponde a una comunicación recibida, enviada o interna.
                       li
                         i.fas.fa-book-open
                         p.m-0 <b>Fecha de radicado:</b> día, mes y año en que se oficializó el trámite de salida de documento de la oficina productora.
@@ -300,7 +318,7 @@
                     ul.lista-ul--color
                       li 
                         i.fas.fa-book-open
-                        p.m-0 <b>Numero de radicado:</b> número consecutivo que el sistema otorga a la comunicación recibida. Por lo general, este número consta de la vigencia (año en curso), seguido del código de la dependencia que atenderá el trámite y por el último el número consecutivo del sistema.
+                        p.m-0 <b>Número de radicado:</b> número consecutivo que el sistema otorga a la comunicación recibida. Por lo general, este número consta de la vigencia (año en curso), seguido del código de la dependencia que atenderá el trámite y por el último el número consecutivo del sistema.
                       li
                         i.fas.fa-book-open
                         p.m-0 <b>Fecha de radicado:</b> día, mes y año en que se oficializó el trámite ante la entidad.
@@ -332,7 +350,7 @@
                         p.m-0 <b>Tipo documental:</b> si es un derecho de petición, queja, solicitud de información, tutela, entre otros.
                       li 
                         i.fas.fa-book-open
-                        p.m-0 <b>Numero de radicado:</b> número consecutivo de radicado asignado.
+                        p.m-0 <b>Número de radicado:</b> número consecutivo de radicado asignado.
                       li
                         i.fas.fa-book-open
                         p.m-0 <b>Fecha de radicado:</b> día, mes y año en que se oficializó el trámite ante la entidad.
@@ -369,7 +387,7 @@
             p.m-0 ¿Realmente existe organización documental en la unidad administrativa?
         p.mb-3 Estos fueron tres de los varios interrogantes que se hizo el usuario, el funcionario encargado solo pudo darle respuesta a la primera pregunta:
 
-        p.m-0 <b>Respuesta:</b> La demora en la entrega de documento es porque la historia clínica no se encontraba automatizada, por tanto, hay que recurrir al archivo físico y en la rotulación del expediente había errores en la digitación del nombre del usuario. 
+        p.m-0 <b>Respuesta:</b> la demora en la entrega de documento es porque la historia clínica no se encontraba automatizada, por tanto, hay que recurrir al archivo físico y en la rotulación del expediente había errores en la digitación del nombre del usuario. 
 
     p.mb-5 Los anteriores hallazgos ocasionaron la tardanza en la atención del servicio, en la que sale a la luz los errores que presenta la gestión documental por falta de organización y talento humano capacitado para el ejercicio de las funciones. Luego de ver el ejemplo, entender el error y saber que todo tiene un orden se debe revisar el proceso de organización documental que consta de tres pasos:
 
@@ -491,7 +509,7 @@
       h5 Tabla 1
       span.text-small <em>Diferencias entre CCD y TRD</em>
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-xxl-10.col-lg-10.col-sm-10.col-12
           table.vertical_top
             thead
@@ -524,12 +542,20 @@
                     p <b>Disposición final:</b> lo que se hace con las series documentales, luego de que cumpla la retención en el archivo central. Conservación, eliminación, selección, microfilmación.
                     p <b>Procedimiento:</b> descripción del proceso de la disposición final.
 
+    p.mb-4 <b>Principio de Orden Original:</b> es uno de los principios fundamentales, revise por qué, en el siguiente video:
+       
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video    
+
     Separador
 
     #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.4.	Ordenación documental
     
-    .row.justify-content-center.mb-4
+    .fondo3
+      .row.justify-content-center.mb-4
         .col-xxl-4.col-lg-4.col-md-4.col-sm-3.col-12(data-aos="fade-up")
           figure.mb-4.mb-md-0
             img(src='@/assets/curso/tema1/img22.png')
@@ -549,31 +575,31 @@
               i.fas.fa-book-open
               p.m-0 Sistemas de ordenación.
     
-    p.mb-0.mb-md-4 La ordenación documental establece los documentos que van inicialmente y los que van posteriormente en la incorporación del expediente y este, a su vez, se conforma con lo dispuesto en las TRD (Tablas de Revisión Documental) en:
+      p.mb-0.mb-md-4 La ordenación documental establece los documentos que van inicialmente y los que van posteriormente en la incorporación del expediente y este, a su vez, se conforma con lo dispuesto en las TRD (Tablas de Revisión Documental) en:
 
-    .row.justify-content-center.mb-3.mb-lg-0.display_tarjetas2
-      .col-md-6.col-lg.mb-0.mb-lg-5
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img24.svg' alt='AvatarTop')
-          .tarjeta.bg_color1
-            .p-4
-              h4.text-center Series
+      .row.justify-content-center.mb-3.mb-lg-0.display_tarjetas2
+        .col-md-6.col-lg.mb-0.mb-lg-5
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/img24.svg' alt='AvatarTop')
+            .tarjeta.bg_color1
+              .p-4
+                h4.text-center Series
 
-      .col-md-6.col-lg.mb-0.mb-lg-5
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img25.svg' alt='AvatarTop')
-          .tarjeta.bg_color1
-            .p-4
-              h4.text-center Subseries 
+        .col-md-6.col-lg.mb-0.mb-lg-5
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/img25.svg' alt='AvatarTop')
+            .tarjeta.bg_color1
+              .p-4
+                h4.text-center Subseries 
 
-      .col-md-6.col-lg.mb-0.mb-lg-5
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img26.svg' alt='AvatarTop')
-          .tarjeta.bg_color1
-            .p-4
-              h4.mb-0.text-center Tipos documentales
+        .col-md-6.col-lg.mb-0.mb-lg-5
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/img26.svg' alt='AvatarTop')
+            .tarjeta.bg_color1
+              .p-4
+                h4.mb-0.text-center Tipos documentales
 
-    .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5
         .col-xxl-7.col-lg-7.col-md-7.col-sm-10.col-12(data-aos="fade-left")
           p Los responsables de cada unidad administrativa basan la ordenación documental en la conformación de expedientes que agrupen la serie documental, subseries y los tipos documentales, en los que internamente se exprese la secuencia de la gestión. La relación archivística presenta entre la estructura orgánica y las funciones que producen los documentos que se ordenan en las series documentales. El principio de orden original es fundamental para determinar que el expediente se encuentra ordenado y clasificado según el principio de procedencia, esto es que la ordenación se fundamenta en los principios archivísticos.
           p El sistema de ordenación adoptado por la entidad le aporta oportunidad en la localización de la información, esta adopción depende de las características y el volumen de la serie, por tanto, el sistema de ordenación no es una camisa de fuerza para cada unidad administrativa, sino que está facultada para adoptar el sistema de ordenación que favorezca sus objetivos en el acceso de información, seguridad y consulta del archivo de gestión. Los sistemas de ordenación que se utilizan para clasificar y localizar adecuadamente el acervo documental son:
@@ -612,7 +638,8 @@
     p Otro tipo de orden es el siguiente:
     h4.text-center.mb-4 Sistema de ordenación numérica 
 
-    .row.justify-content-center.mb-5(data-aos="fade-down-left")
+    .bg_imgfondo2_t1
+      .row.justify-content-center.mb-5(data-aos="fade-down-left")
         .col-12.col-lg-5.mb-6.mb-lg-0.mb-4.mb-lg-0
           .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -629,64 +656,64 @@
                 img(src='@/assets/curso/tema1/img29_2.svg')
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img29_1.svg')})`}")
 
-    p También es posible ordenar por medio de:
-    h4.text-center.mb-4 Sistema de ordenación alfanumérico
+      p También es posible ordenar por medio de:
+      h4.text-center.mb-4 Sistema de ordenación alfanumérico
 
-    .row.bg_fondo_t1-4.justify-content-center.align-items-center.mb-5
-      .col-12.col-xxl-5.col-lg-5.col-md-5.col-sm-5
-        figure
-          img(src='@/assets/curso/tema1/img31.png')
-      .col-12.col-xxl-7.col-lg-7.col-md-7.col-sm-7(data-aos="fade-up")
-        p.m-0.pe-3 Utilizado en grandes cantidades de documentos que proporciona la entidad, por ejemplo, en el caso del sector salud, no solo basta la ordenación del expediente alfabéticamente, hay que utilizar otro criterio para facilitar la optimización de la consulta, por ello, se hace necesario que se ordene en razón del número de identificación del usuario.
-        p.m-0.pe-3 El sistema de ordenación alfanumérico o mixto es aquel que utiliza el orden alfabético y numérico para acceder a la información. 
+      .row.bg_fondo_t1-4.justify-content-center.align-items-center.mb-5
+        .col-12.col-xxl-5.col-lg-5.col-md-5.col-sm-5
+          figure
+            img(src='@/assets/curso/tema1/img31.png')
+        .col-12.col-xxl-7.col-lg-7.col-md-7.col-sm-7(data-aos="fade-up")
+          p.m-0.pe-3 Utilizado en grandes cantidades de documentos que proporciona la entidad, por ejemplo, en el caso del sector salud, no solo basta la ordenación del expediente alfabéticamente, hay que utilizar otro criterio para facilitar la optimización de la consulta, por ello, se hace necesario que se ordene en razón del número de identificación del usuario.
+          p.m-0.pe-3 El sistema de ordenación alfanumérico o mixto es aquel que utiliza el orden alfabético y numérico para acceder a la información. 
 
-    p.mb-4.margin_top1 El sistema de ordenación utilizado en las unidades de correspondencia es el numérico, otorgando así un orden en el consecutivo de comunicaciones oficiales y ordenando cronológicamente la documentación del más antiguo al más reciente en el expediente. A continuación, se invita a revisar un ejemplo.
+      p.mb-4.margin_top1 El sistema de ordenación utilizado en las unidades de correspondencia es el numérico, otorgando así un orden en el consecutivo de comunicaciones oficiales y ordenando cronológicamente la documentación del más antiguo al más reciente en el expediente. A continuación, se invita a revisar un ejemplo.
 
-    .row.justify-content-center.mb-5
-      .col-12.col-lg-6.col-md-6
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1
-          span.text-small <em>Ejemplo sistema numérico</em>
-        figure
-          img(src='@/assets/curso/tema1/img33.svg')
+      .row.justify-content-center.mb-5
+        .col-12.col-lg-6.col-md-6
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1
+            span.text-small <em>Ejemplo sistema numérico</em>
+          figure
+            img(src='@/assets/curso/tema1/img33.svg')
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.col-md-3
-        table.color_borde-table.mb-4.mb-md-0
-          thead
-            tr.bg_color2
-              td
-                h4.text-center.mb-0 Cronológico
-          tbody
-            tr.bg_color2
-              td.ps-4  
-                p <b>2022, 01, 06</b>
-                p <b>2022, 02, 04</b>
-                p <b>2022, 02, 17</b>
-                p <b>2022, 03, 01</b>
-                p <b>2022, 03, 25</b>
-      .col-12.col-lg-3.col-md-3
-        table.color_borde-table
-          thead
-            tr.bg_color3
-              td
-                h4.text-center.mb-0 Ordinal
-          tbody
-            tr.bg_color4
-              td.ps-4
-                p <b>02434604</b>
-                p <b>02434605</b>
-                p <b>02434606</b>
-                p <b>02434607</b>
-                p <b>02434608</b>
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-3.col-md-3
+          table.color_borde-table.mb-4.mb-md-0
+            thead
+              tr.bg_color2
+                td
+                  h4.text-center.mb-0 Cronológico
+            tbody
+              tr.bg_color2
+                td.ps-4  
+                  p <b>2022, 01, 06</b>
+                  p <b>2022, 02, 04</b>
+                  p <b>2022, 02, 17</b>
+                  p <b>2022, 03, 01</b>
+                  p <b>2022, 03, 25</b>
+        .col-12.col-lg-3.col-md-3
+          table.color_borde-table
+            thead
+              tr.bg_color3
+                td
+                  h4.text-center.mb-0 Ordinal
+            tbody
+              tr.bg_color4
+                td.ps-4
+                  p <b>02434604</b>
+                  p <b>02434605</b>
+                  p <b>02434606</b>
+                  p <b>02434607</b>
+                  p <b>02434608</b>
 
-    .row.justify-content-center.mb-5
-      .col-12.col-lg-6.col-md-6
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 2
-          span.text-small <em>Ejemplo sistema alfanumérico</em>
-        figure
-          img(src='@/assets/curso/tema1/img34.svg')
+      .row.justify-content-center.mb-5
+        .col-12.col-lg-6.col-md-6
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 2
+            span.text-small <em>Ejemplo sistema alfanumérico</em>
+          figure
+            img(src='@/assets/curso/tema1/img34.svg')
     
     Separador
 
@@ -797,7 +824,7 @@
         .row
           .col-md-7.mb-4.mb-md-0
             p.mt-2 Se insiste en el uso del material, ya que algunas entidades estatales por desconocimiento de la norma y de las directrices que entrega el Archivo General de la Nación - AGN a través de la Cartilla de foliación realizan procedimientos de foliación con lapicero siendo una mala práctica en la manipulación de la documentación en físico, En auditorías que se efectúan se encuentran documentos recientes con foliaciones en lapicero, por ello, se enfatiza en que se folia solo con lápiz.
-            p De acuerdo con la cartilla de foliación del AGN a los folletos se le da un solo folio según en consecutivo en el que vaya el expediente, las fotografías, si se encuentran sueltas en el expediente, se folian por la cara vuelta, si las fotografías vienen en un sobre se folia el sobre dándole un numero consecutivo, las hojas en blanco dentro de un expediente no se folian, a los periódicos o revistas se les da un número consecutivo. Cuando los documentos son impresos a doble cara, se deja indicación en el folio recto o en la primera cara de la hoja que hay información por la cara trasera así: debajo del número que tiene el folio recto se indican las iniciales F-V o R-V que significan folio vuelto o recto vuelto, dicho en otras palabras, la cara trasera de la hoja no se folia, se representa que existe información en ella con el número consecutivo y las iniciales en la primera cara de la hoja.       
+            p De acuerdo con la cartilla de foliación del AGN a los folletos se le da un solo folio según en consecutivo en el que vaya el expediente, las fotografías, si se encuentran sueltas en el expediente, se folian por la cara vuelta, si las fotografías vienen en un sobre se folia el sobre dándole un número consecutivo, las hojas en blanco dentro de un expediente no se folian, a los periódicos o revistas se les da un número consecutivo. Cuando los documentos son impresos a doble cara, se deja indicación en el folio recto o en la primera cara de la hoja que hay información por la cara trasera así: debajo del número que tiene el folio recto se indican las iniciales F-V o R-V que significan folio vuelto o recto vuelto, dicho en otras palabras, la cara trasera de la hoja no se folia, se representa que existe información en ella con el número consecutivo y las iniciales en la primera cara de la hoja.       
           .col-md-4
             figure
               img.ms-5.ps-4(src='@/assets/curso/tema1/img44.svg', alt='Texto que describa la imagen')

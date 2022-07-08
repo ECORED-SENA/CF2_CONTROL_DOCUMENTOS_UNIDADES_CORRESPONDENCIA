@@ -9,40 +9,41 @@
 
     p En el siguiente video se pueden precisar los fundamentos de la gestión documental:
 
-     figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    .bg_imgfondo1_t2
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video: Leyenda del video
     
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-        h2 2.1. Etapas de la gestión documental
+      #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+          h2 2.1. Etapas de la gestión documental
 
-    p.mb-4 Las etapas que se detallan a continuación deben hacerse de manera adecuada para que la entidad pueda gestionar la información de manera eficiente y conformar el patrimonio documental. Las entidades públicas abanderan estas etapas, puesto que reconocen el valor de seguir cada una de estas fases:
+      p.mb-4 Las etapas que se detallan a continuación deben hacerse de manera adecuada para que la entidad pueda gestionar la información de manera eficiente y conformar el patrimonio documental. Las entidades públicas abanderan estas etapas, puesto que reconocen el valor de seguir cada una de estas fases:
 
-    .row.justify-content-center
-      .col-12.col-lg-10.col-md-10
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 2
-          span.text-small <em>Etapas de la gestión documental</em>
-    
-        .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
-            h5.mb-0 
-          table
-            tr
-              th.h4.bg_color5 Creación
-              td Es importante definir las medidas de identificación y seguridad de los documentos que se producen en la entidad, debido a esto, la etapa de creación establece directrices para al papel, membrete, plantilla, tipo de letra, sellos en seco y todo aquello que permita la identificación de la producción del documento en cuanto a formato y características.
-            tr
-              th.h4 Mantenimiento
-              td.bg_color_white El uso de técnicas para la conservación de la documentación digital y análoga. La fase de mantenimiento verifica el funcionamiento de los sistemas de gestión documental empleados por la entidad y en los cuales se apoya para la administración de la documentación. El mantenimiento propicia seguridad en cada etapa y proceso de la gestión documental procurando el control y la evaluación de quienes intervienen y manipulan la información. 
-            tr
-              th.h4.bg_color5 Difusión
-              td Fase de la gestión documental que estructura las pautas para el acceso y publicación de la información así como los requerimientos de consulta. Las entidades públicas, según la Ley 1712 de 2014 Ley de Transparencia y Acceso a la Información Pública, indica que los sujetos obligados darán a conocer la información pública mediante los canales que ha dispuesto la entidad para tal fin.
-            tr
-              th.h4 Administración
-              td.bg_color_white Consiste en el manejo de la distribución de los documentos en el ciclo de vida, esta fase se inicia desde la unidad de correspondencia que tiene a su cargo la responsabilidad de administrar la documentación que entra y sale de la entidad para la gestión de la información.
+      .row.justify-content-center
+        .col-12.col-lg-10.col-md-10
+          .titulo-sexto.color-acento-contenido
+            h5 Tabla 2
+            span.text-small <em>Etapas de la gestión documental</em>
+      
+          .tabla-b.color-acento-contenido.mb-5
+            .tabla-b__header
+              h5.mb-0 
+            table
+              tr
+                th.h4.bg_color5 Creación
+                td Es importante definir las medidas de identificación y seguridad de los documentos que se producen en la entidad, debido a esto, la etapa de creación establece directrices para al papel, membrete, plantilla, tipo de letra, sellos en seco y todo aquello que permita la identificación de la producción del documento en cuanto a formato y características.
+              tr
+                th.h4 Mantenimiento
+                td.bg_color_white El uso de técnicas para la conservación de la documentación digital y análoga. La fase de mantenimiento verifica el funcionamiento de los sistemas de gestión documental empleados por la entidad y en los cuales se apoya para la administración de la documentación. El mantenimiento propicia seguridad en cada etapa y proceso de la gestión documental procurando el control y la evaluación de quienes intervienen y manipulan la información. 
+              tr
+                th.h4.bg_color5 Difusión
+                td Fase de la gestión documental que estructura las pautas para el acceso y publicación de la información así como los requerimientos de consulta. Las entidades públicas, según la Ley 1712 de 2014 Ley de Transparencia y Acceso a la Información Pública, indica que los sujetos obligados darán a conocer la información pública mediante los canales que ha dispuesto la entidad para tal fin.
+              tr
+                th.h4 Administración
+                td.bg_color_white Consiste en el manejo de la distribución de los documentos en el ciclo de vida, esta fase se inicia desde la unidad de correspondencia que tiene a su cargo la responsabilidad de administrar la documentación que entra y sale de la entidad para la gestión de la información.
 
-    Separador
+      Separador
 
     #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 2.2.	Requerimientos de la gestión documental
@@ -178,7 +179,7 @@
           .row.justify-content-center
             .col-12.col-lg-8.col-md-8.width_llamado-action
               p.ms-5.mt-4 Para hacer la revisión de cada proceso, usted como aprendiz debe revisar el artículo 9º Procesos de la gestión documental del Decreto 2609 de 2012 de la Presidencia de la República en 2012 que se encuentra en el siguiente enlace:
-              a.anexo(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.anexo(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -191,76 +192,77 @@
 
     p.mb-4 El PGD es el instrumento archivístico en el que se desglosan en tiempo específico los lineamientos y acciones de la gestión documental; así, una entidad sin una base para el manejo de la documentación está destinada a existir con las siguientes dificultades.
 
-    .row.justify-content-center
-      .col-12.col-xxl-10.col-lg-10.col-sm-10
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 3
-          span.text-small <em>Dificultades en la ausencia del PGD</em>
-        table.vertical_top
-          thead
-            tr.bg_color_fondo_tr                
-              th
-                h4.text-center.mb-0 <b>Factores de corrupción</b>
-              th
-                h4.text-center.mb-0 <b>Destrucción injustificada de documentos</b>
-          tbody
-              tr
-                td.p-3 Costos en la resolución de los documentos.
-                td.p-3 Dificultades en el acceso documental.
-              tr
-                td.p-2.ps-3 Pérdida de demandas judiciales.
-                td.p-2.ps-3 Lentitud en la difusión de la información.
-              tr
-                td.p-2.ps-3 Disminución de productividad.
-                td.p-2.ps-3 Rotulación inadecuada de archivos.   
+    .fondo2-t2
+      .row.justify-content-center
+        .col-12.col-xxl-10.col-lg-10.col-sm-10
+          .titulo-sexto.color-acento-contenido
+            h5 Tabla 3
+            span.text-small <em>Dificultades en la ausencia del PGD</em>
+          table.vertical_top
+            thead
+              tr.bg_color_fondo_tr                
+                th
+                  h4.text-center.mb-0 <b>Factores de corrupción</b>
+                th
+                  h4.text-center.mb-0 <b>Destrucción injustificada de documentos</b>
+            tbody
+                tr
+                  td.p-3 Costos en la resolución de los documentos.
+                  td.p-3 Dificultades en el acceso documental.
+                tr
+                  td.p-2.ps-3 Pérdida de demandas judiciales.
+                  td.p-2.ps-3 Lentitud en la difusión de la información.
+                tr
+                  td.p-2.ps-3 Disminución de productividad.
+                  td.p-2.ps-3 Rotulación inadecuada de archivos.   
 
-    .row.justify-content-center.align-items-center.img_banner-t2-4.my-5
-      .col-12.col-xxl-8.col-lg-8.col-md-8(data-aos="fade-down-right") 
-        p.ms-5 <b>Para la unidad de correspondencia es importante fortalecer las siguientes acciones:</b>
-        ul.lista-ul--color.mb-2.ms-5
-          li 
-            i.fas.fa-book-open
-            p.m-0 Recibir y crear documentos.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Radicar, registrar en planillas y seguir el trámite de las comunicaciones.
-          li
-            i.fas.fa-book-open
-            p.m-0 Clasificar, ordenar y describir la información que se genera en el área de correspondencia.
-      .col-12.col-xxl-4.col-lg-4.col-md-4(data-aos="fade-down-left").mb-5 
-        figure
-          img.pe-4.pt-4(src='@/assets/curso/tema2/img05.png')
+      .row.justify-content-center.align-items-center.img_banner-t2-4.my-5
+        .col-12.col-xxl-8.col-lg-8.col-md-8(data-aos="fade-down-right") 
+          p.ms-5 <b>Para la unidad de correspondencia es importante fortalecer las siguientes acciones:</b>
+          ul.lista-ul--color.mb-2.ms-5
+            li 
+              i.fas.fa-book-open
+              p.m-0 Recibir y crear documentos.
+            li 
+              i.fas.fa-book-open
+              p.m-0 Radicar, registrar en planillas y seguir el trámite de las comunicaciones.
+            li
+              i.fas.fa-book-open
+              p.m-0 Clasificar, ordenar y describir la información que se genera en el área de correspondencia.
+        .col-12.col-xxl-4.col-lg-4.col-md-4(data-aos="fade-down-left").mb-5 
+          figure
+            img.pe-4.pt-4(src='@/assets/curso/tema2/img05.png')
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-xxl-5.col-lg-5.col-md-5(data-aos="zoom-in-up")
-        figure
-          img(src='@/assets/curso/tema2/img06.svg')
-      .col-12.col-xxl-7.col-lg-7.col-md-7
-        p En las áreas de correspondencias siempre hay mucho por hacer pero si lo que se hace no lleva un control, si se reciben documentos sin ninguna planeación y, peor aún, sin ningún control, todo lo que se haga desde la unidad de correspondencia es un sinsentido puesto que no se alcanzarán los objetivos que ha dispuesto la entidad en su programa de gestión documental. 
-        p Por ello, es tan importante controlar las acciones del área de correspondencia a través de los formatos, registros e indicadores que suministren un balance acerca del éxito o fracaso en los procedimientos del área y determinar la cercanía frente a lo propuesto por la gestión documental.
+      .row.justify-content-center.align-items-center.mb-4
+        .col-12.col-xxl-5.col-lg-5.col-md-5(data-aos="zoom-in-up")
+          figure.mb-4.mb-md-0
+            img(src='@/assets/curso/tema2/img06.svg')
+        .col-12.col-xxl-7.col-lg-7.col-md-7
+          p En las áreas de correspondencias siempre hay mucho por hacer pero si lo que se hace no lleva un control, si se reciben documentos sin ninguna planeación y, peor aún, sin ningún control, todo lo que se haga desde la unidad de correspondencia es un sinsentido puesto que no se alcanzarán los objetivos que ha dispuesto la entidad en su programa de gestión documental. 
+          p Por ello, es tan importante controlar las acciones del área de correspondencia a través de los formatos, registros e indicadores que suministren un balance acerca del éxito o fracaso en los procedimientos del área y determinar la cercanía frente a lo propuesto por la gestión documental.
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-12.col-xxl-8.col-lg-8.col-md-8
-        p <b>Algunos de los controles que pueden realizar a la unidad de correspondencia son los siguientes:</b>
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Establecer políticas en la entidad para la radicación de los documentos en ambiente presencial y virtual.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Diseñar los formatos, planillas y formularios requeridos para llevar control de los documentos que se radican mediante un registro en un programa de computador como Excel o algún software especializado.
-          li
-            i.fas.fa-book-open
-            p.m-0 Respetar las directrices dispuestas en el programa de gestión documental para el reparto de documentos al interior de la entidad.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Generar técnicas de comunicación asertiva para los funcionarios y usuarios de las entidades.
-          li
-            i.fas.fa-book-open
-            p.m-0 Establecer parámetros claros para apoyar la gestión de las comunicaciones en todos los niveles de la empresa.        
-      .col-12.col-xxl-4.col-lg-4.col-md-4(data-aos="fade-up")
-        figure
-          img(src='@/assets/curso/tema2/img07.png')
+      .row.justify-content-center.align-items-center.mb-4
+        .col-12.col-xxl-8.col-lg-8.col-md-8
+          p <b>Algunos de los controles que pueden realizar a la unidad de correspondencia son los siguientes:</b>
+          ul.lista-ul--color.mb-2
+            li 
+              i.fas.fa-book-open
+              p.m-0 Establecer políticas en la entidad para la radicación de los documentos en ambiente presencial y virtual.
+            li 
+              i.fas.fa-book-open
+              p.m-0 Diseñar los formatos, planillas y formularios requeridos para llevar control de los documentos que se radican mediante un registro en un programa de computador como Excel o algún software especializado.
+            li
+              i.fas.fa-book-open
+              p.m-0 Respetar las directrices dispuestas en el programa de gestión documental para el reparto de documentos al interior de la entidad.
+            li 
+              i.fas.fa-book-open
+              p.m-0 Generar técnicas de comunicación asertiva para los funcionarios y usuarios de las entidades.
+            li
+              i.fas.fa-book-open
+              p.m-0 Establecer parámetros claros para apoyar la gestión de las comunicaciones en todos los niveles de la empresa.        
+        .col-12.col-xxl-4.col-lg-4.col-md-4(data-aos="fade-up")
+          figure
+            img(src='@/assets/curso/tema2/img07.png')
     
     .row.justify-content-center.align-items-center.mb-4
         .col-12.col-xxl-5.col-lg-5.col-md-5(data-aos="fade-left")
@@ -291,65 +293,66 @@
         figure
           img(src='@/assets/curso/tema2/img12.png')
     
-    p Cada una de estas funciones debe estar clara en los procesos de gestión documental y debe tener un responsable que afirme cuándo se hizo bien y valide que se está cumpliendo y evitando así contratiempos.
+    .fondo3-t2
+      p Cada una de estas funciones debe estar clara en los procesos de gestión documental y debe tener un responsable que afirme cuándo se hizo bien y valide que se está cumpliendo y evitando así contratiempos.
 
-    p.mb-5 <b>Con relación a los aspectos del proceso de gestión y trámite de documentos los pasos más importantes son los siguientes:</b>
+      p.mb-5 <b>Con relación a los aspectos del proceso de gestión y trámite de documentos los pasos más importantes son los siguientes:</b>
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8.col-md-8
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 4
-          span.text-small <em>Aspectos de gestión y trámite</em>
-        .row.justify-content-center.align-items-center(data-aos="fade-right")
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--boton.bg_color6
-                .p-4
-                  p Registro de documentos
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--boton.bg_color6
-                .p-4
-                  p Distribución
-        .row.justify-content-center.align-items-center(data-aos="fade-left")
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--boton.bg_color6
-                .p-4
-                  p Acceso y consulta
-          .col-lg-6
-            .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
-              .tarjeta-avatar-b__img
-                img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
-              .tarjeta.tarjeta--boton.bg_color6
-                .p-4
-                  p Control y seguimiento
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-8.col-md-8
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 4
+            span.text-small <em>Aspectos de gestión y trámite</em>
+          .row.justify-content-center.align-items-center(data-aos="fade-right")
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--boton.bg_color6
+                  .p-4
+                    p Registro de documentos
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--boton.bg_color6
+                  .p-4
+                    p Distribución
+          .row.justify-content-center.align-items-center(data-aos="fade-left")
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--boton.bg_color6
+                  .p-4
+                    p Acceso y consulta
+            .col-lg-6
+              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--boton.bg_color6
+                  .p-4
+                    p Control y seguimiento
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8.col-md-8
-        p A continuación, se describe cada uno de estos pasos y su importancia en el proceso:
-        TabsA.color-acento-contenido.mb-5
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Registro de documentos")
-            h4 Registro de documentos
-            p.mx-4 Vincular el documento a un trámite en la entidad, por ende, todo documento se radica en la ventanilla única y se registran los datos de la comunicación en la versión del formato de registro vigente.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Distribución")
-            h4 Distribución
-            p Se reparten los documentos a las áreas competentes de dar solución al trámite.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Acceso y consulta")
-            h4 Acceso y consulta
-            p Todas las unidades administrativas sin excepción alguna, tienen conocimiento de las Tablas de Control y Acceso TCA, por lo tanto, deben facilitar la información basados en los permisos de acceso.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Control y seguimiento")
-            h4 Control y seguimiento
-            p Se crean alertas anticipadas sobre el tiempo de respuesta de la comunicación en trámite. 
-      .col-12.col-lg-4.col-md-4
-        figure
-          img(src='@/assets/curso/tema2/img17.svg')(data-aos="zoom-in")
+      .row.justify-content-center.align-items-center
+        .col-12.col-lg-8.col-md-8
+          p A continuación, se describe cada uno de estos pasos y su importancia en el proceso:
+          TabsA.color-acento-contenido.mb-5
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Registro de documentos")
+              h4 Registro de documentos
+              p.mx-4 Vincular el documento a un trámite en la entidad, por ende, todo documento se radica en la ventanilla única y se registran los datos de la comunicación en la versión del formato de registro vigente.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Distribución")
+              h4 Distribución
+              p Se reparten los documentos a las áreas competentes de dar solución al trámite.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Acceso y consulta")
+              h4 Acceso y consulta
+              p Todas las unidades administrativas sin excepción alguna, tienen conocimiento de las Tablas de Control y Acceso TCA, por lo tanto, deben facilitar la información basados en los permisos de acceso.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Control y seguimiento")
+              h4 Control y seguimiento
+              p Se crean alertas anticipadas sobre el tiempo de respuesta de la comunicación en trámite. 
+        .col-12.col-lg-4.col-md-4
+          figure
+            img(src='@/assets/curso/tema2/img17.svg')(data-aos="zoom-in")
 
     Separador
 
