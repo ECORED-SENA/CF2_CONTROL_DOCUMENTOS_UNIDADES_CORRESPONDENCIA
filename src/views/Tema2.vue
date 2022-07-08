@@ -77,108 +77,112 @@
     
     p.mb-4 Los procesos de la gestión documental se fundamentan en lo expuesto por la Presidencia de la República en el Decreto 2609 (2012), que determina que la gestión de documentos responde a interrogantes sobre ¿qué hacer? y ¿cómo hacer? en el trámite de los documentos de todo tipo. A continuación, se describen los procesos que debe abordar la entidad en su sistema de gestión documental, en cada uno de los elementos se presentan los subprocesos que se llevan a cabo en cada fase:
 
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/tema2/img02.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center
+      .col-12.col-md-8.col-lg-8.col-xl-8    
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema2/img02.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.bg_color_tarinfo2-t2.p-3(x="59.1%" y="4.2%" numero="+")
-        .h4.mb-2 Planeación
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Formato.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Metadatos.
-          li
-            i.fas.fa-book-open
-            p.m-0 Instrumentos archivísticos.
-      .tarjeta.p-3.bg_color_tarinfo2-t2(x="90.2%" y="27.1%" numero="+")
-        .h4.mb-2 Producción 
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Versión de documentos.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Elaboración de documentos.
-      .tarjeta.bg_color_tarinfo2-t2.p-3(x="96.9%" y="50.2%" numero="+")
-        .h4.mb-2 Gestión y trámite
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Reparto de correspondencia.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Flujos de procesos.
-          li
-            i.fas.fa-book-open
-            p.m-0 Alerta de respuestas a comunicaciones.
-      .tarjeta.bg_color_tarinfo2-t2.p-3(x="90.2%" y="73.7%" numero="+")
-        .h4.mb-2 Organización
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 TRD.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Clasificación.
-          li
-            i.fas.fa-book-open
-            p.m-0 Ordenación.
-          li
-            i.fas.fa-book-open
-            p.m-0 Descripción.
-      .tarjeta.bg_color_tarinfo2-t2.p-3(x="3.3%" y="50.2%" numero="+")
-        .h4.mb-2 Transferencia
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Migración de información física.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Migración de metadatos.
-      .tarjeta.bg_color_tarinfo2-t2.p-3(x="2.1%" y="27.1%" numero="+")
-        .h4.mb-2 Disposición
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Conservación.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Selección.
-          li
-            i.fas.fa-book-open
-            p.m-0 Microfilmación.
-          li
-            i.fas.fa-book-open
-            p.m-0 Eliminación.
-      .tarjeta.bg_color_tarinfo2-t2.p-3(x="10.1%" y="73.7%" numero="+")
-        .h4.mb-2 Preservación
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Copias de seguridad.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Plan de conservación.
-      .tarjeta.bg_color_tarinfo2-t2.p-3(x="58%" y="96%" numero="+")
-        .h4.mb-2 Valoración
-        ul.lista-ul--color.mb-2
-          li 
-            i.fas.fa-book-open
-            p.m-0 Primaria.
-          li 
-            i.fas.fa-book-open
-            p.m-0 Secundaria.
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="59.1%" y="4.2%" numero="+")
+            .h4.mb-2 Planeación
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 Formato.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Metadatos.
+              li
+                i.fas.fa-book-open
+                p.m-0 Instrumentos archivísticos.
+          .tarjeta.p-3.bg_color_tarinfo2-t2(x="90.2%" y="27.1%" numero="+")
+            .h4.mb-2 Producción 
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 Versión de documentos.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Elaboración de documentos.
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="96.9%" y="50.2%" numero="+")
+            .h4.mb-2 Gestión y trámite
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 Reparto de correspondencia.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Flujos de procesos.
+              li
+                i.fas.fa-book-open
+                p.m-0 Alerta de respuestas a comunicaciones.
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="90.2%" y="73.7%" numero="+")
+            .h4.mb-2 Organización
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 TRD.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Clasificación.
+              li
+                i.fas.fa-book-open
+                p.m-0 Ordenación.
+              li
+                i.fas.fa-book-open
+                p.m-0 Descripción.
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="3.3%" y="50.2%" numero="+")
+            .h4.mb-2 Transferencia
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 Migración de información física.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Migración de metadatos.
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="2.1%" y="27.1%" numero="+")
+            .h4.mb-2 Disposición
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 Conservación.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Selección.
+              li
+                i.fas.fa-book-open
+                p.m-0 Microfilmación.
+              li
+                i.fas.fa-book-open
+                p.m-0 Eliminación.
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="10.1%" y="73.7%" numero="+")
+            .h4.mb-2 Preservación
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 Copias de seguridad.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Plan de conservación.
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="58%" y="96%" numero="+")
+            .h4.mb-2 Valoración
+            ul.lista-ul--color.mb-2
+              li 
+                i.fas.fa-book-open
+                p.m-0 Primaria.
+              li 
+                i.fas.fa-book-open
+                p.m-0 Secundaria.
 
     .row.justify-content-center
-      .col-12.col-lg-10.col-md-10
+      .col-12.col-md-8.col-lg-8.col-xl-8   
         .img_ban-enlace
-          .row.justify-content-center
-            .col-12.col-lg-8.col-md-8.width_llamado-action
-              p.ms-5.mt-4 Para hacer la revisión de cada proceso, usted como aprendiz debe revisar el artículo 9º Procesos de la gestión documental del Decreto 2609 de 2012 de la Presidencia de la República en 2012 que se encuentra en el siguiente enlace:
+          .row.justify-content-end
+            .col-12.col-md-10.col-lg-10
+              p.mt-0.mt-md-5 Para hacer la revisión de cada proceso, usted como aprendiz debe revisar el artículo 9º Procesos de la gestión documental del Decreto 2609 de 2012 de la Presidencia de la República en 2012 que se encuentra en el siguiente enlace:
+          .row.justify-content-center.mb-4
+            .col-12.col-md-10.col-lg-10.ms-0.ms-md-5    
               a.anexo(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
