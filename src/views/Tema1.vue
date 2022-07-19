@@ -476,8 +476,8 @@
     .fondo2      
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/-07M4BNCMso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
       .row.justify-content-center.align-items-center
         .col-xxl-5.col-lg-5.col-md-5.col-sm-5.col-12(data-aos="zoom-in-up")
           figure
@@ -546,8 +546,7 @@
        
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/YjkZbLDybrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
 
     Separador
 
