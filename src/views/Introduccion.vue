@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
-          i.fas.fa-info
-      h1 Introducción
+          i.fas.fa-info(data-aos="fade-right")
+      h1(data-aos="fade-right") Introducción
     
     p.mb-5 La atención a la gestión de la información se describe en el documento que ingresa a la entidad, tal como se puede revisar a continuación:
   

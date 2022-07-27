@@ -23,8 +23,6 @@
     font-size: 26px
 
 .bloque-texto-b__texto * 
-    display: inline-block
-    margin-top: -24px
     margin-left: 20px
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
       margin-left: 22px
@@ -57,13 +55,18 @@
 
 .margin_fa-quote-right2
   .fa-quote-right:before
-    margin-left: 343px
+    margin-left: 315px
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
       margin-left: 268px
+    @media screen and ( max-width: 420px)
+      margin-left: 288px
+      margin-bottom: 8px
+    @media screen and ( max-width: 390px)
+      margin-left: 244px
 
 .display_bloque-texto2
   .bloque-texto-b__texto * 
-    display: table-row-group
+    display: inline-flex
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
       display: block
 
@@ -104,7 +107,10 @@
     left: 50%
     top: 38px
     width: 89px
-    
+
+.img-t
+  width: auto
+  height: auto      
 
 .tarjeta.color-acento-botones 
     background-color: #FFFFFF
@@ -260,9 +266,9 @@ td, th
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
         margin-top: -1rem
     @media screen and ( max-width: 420px)
-        margin-top: 14rem
+        margin-top: 16rem
         @media screen and ( max-width: 390px)
-          margin-top: 17rem
+          margin-top: 19rem
 
 .tarjeta.color-acento-contenido 
     background-color: #FFFFFF
@@ -317,7 +323,7 @@ td, th
     height: 118%
     background-image: url("../assets/curso/tema1/img19.svg")
     background-repeat: no-repeat
-    background-size: 40% 100% 
+    background-size: 40% 100%      
 
 .fondo3-t2
   position: relative
@@ -338,10 +344,33 @@ td, th
 .bg_color_tarinfo-t2
   background-color: #EFEFEF!important
   width: 617px
+  @media screen and ( max-width: 920px)
+    width: 345px
+    height: 205px
+
+.bg_color_tarinfo-t2-2
+  background-color: #EFEFEF!important
+  width: 617px
+  @media screen and ( max-width: 920px)
+    width: 345px
+    height: 370px
+    margin-bottom: -148px
+
+.bg_color_tarinfo-t2-3
+  background-color: #EFEFEF!important
+  width: 617px
+  @media screen and ( max-width: 920px)
+    width: 345px
+    height: 300px
+    margin-bottom: -80px
 
 .bg_color_tarinfo2-t2
   background-color: #EFEFEF!important
-  width: 366px
+  width: 343px
+
+.bg_color_tarinfo2-t2-2
+  background-color: #EFEFEF!important
+  width: 315px
 
 .img_ban-enlace
   background-image: url(../assets/curso/tema2/img03.svg)
@@ -351,13 +380,23 @@ td, th
   height: 110%
   @media screen and ( max-width: 920px)
     background-position: bottom
+    margin-right: 15px
+  @media screen and ( max-width: 390px)
+    margin-right: 0px
 
 .anexo 
     display: inline-table
     background-color: #ffffff
     margin-left: 65px
-    padding: 15px
+    padding: 12px
     border-radius: 5px
+    @media screen and ( max-width: 920px)
+      margin-left: 80px
+      top: 27px
+    @media screen and ( max-width: 390px)
+      margin-left: 56px
+      padding: 10px
+      top: 32px
 
 .width_llamado-action
     width: 66.666667%
@@ -368,6 +407,11 @@ td, th
   background-image: url('../assets/curso/tema2/img04.svg')
   background-repeat: no-repeat
   background-position: center
+  @media screen and ( max-width: 920px)
+    background-position: 50% 102%
+  @media screen and ( max-width: 390px)
+    background-position: 50% 112%
+
   
 .bg_color6
   background-color: #D1E7E8
@@ -382,4 +426,121 @@ td, th
   .tarjeta--boton:hover
     background-color: #9EBACE!important
   
+.color_num
+  color: #C3C3C3!important 
 
+.tarjeta-up
+  position: relative
+  overflow: hidden
+  width: 100%
+  min-height: 400px
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  &__content
+    position: absolute
+    width: 100%
+    bottom: 0
+    transform: translateY(55%)
+    left: 0
+    transition: transform 0.5s ease-in-out, height 0.5s ease-in-out
+    p
+      opacity: 0
+      transition: opacity 0.3s ease-in-out
+    p, h1, h2, h3, h4, h5, h6 
+      color: white !important
+    &.color-primario
+      background-color: $color-primario
+    &.color-secundario
+      background-color: $color-secundario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+    &.color-acento-botones
+      background-color: $color-acento-botones
+  &:hover
+    .tarjeta-up__content
+      transform: translateY(0%)
+      p
+        opacity: 1  
+
+.bg-degrade
+  background: #D0F2F5  
+.tarjeta-foto-hover
+  position: relative
+  overflow: hidden
+  &:hover
+    .tarjeta-foto-hover__tarjeta
+      transform: translateY(0%)
+
+  &__titulo
+    position: absolute
+    bottom: 0
+    width: 100%
+  &__tarjeta
+    transition: transform 0.3s ease-in-out
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 100%
+    transform: translateY(100%)
+.bgh
+  background-color: #3B8E95 
+
+.m_bottom2
+  margin-bottom: 2px!important
+  @media screen and ( max-width: 420px)
+    margin-bottom: -6px!important
+
+.e_entrelineas1
+  line-height: 1.5
+  @media screen and ( max-width: 420px)
+     line-height: 1.2
+
+.bg_tar
+  width: 295px
+  position: relative
+  &--100
+    height: 330px
+  &.tar_1
+    background-image: url('../assets/curso/tema2/img09.png')    
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 16px
+    display: flex
+    justify-content: center
+    align-items: end
+  &.tar_2
+    background-image: url('../assets/curso/tema2/img10.png')    
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 16px
+    display: flex
+    justify-content: center
+    align-items: end
+  &.tar_3
+    background-image: url('../assets/curso/tema2/img11.png')    
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 16px
+    display: flex
+    justify-content: center
+    align-items: end
+  &.tar_4
+    background-image: url('../assets/curso/tema2/img12.png')    
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 16px
+    display: flex
+    justify-content: center
+    align-items: end
+
+.img-infografica__card--selected, .img-infografica-b__card--selected 
+    right: 0px
+    @media screen and ( max-width: 920px)
+      right: 15%!important
+    @media screen and ( max-width: 390px)
+      right: 9%!important

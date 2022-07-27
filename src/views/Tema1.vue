@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Controles y procedimientos en la gestión documental
+      h1(data-aos="fade-right") Controles y procedimientos en la gestión documental
 
     .row.justify-content-center.align-items-center.mb-4
       .col-xl-5.col-sm-12.mb-4.mb-xl-0(data-aos="zoom-in-up")
@@ -30,7 +30,7 @@
             .row.justify-content-center
               .col-7
                 figure
-                  img.mx-auto.d-block.p-4(src='@/assets/curso/tema1/img02.svg', alt='Texto que describa la imagen')
+                  img.img-t.mx-auto.d-block.p-4(src='@/assets/curso/tema1/img02.svg', alt='Texto que describa la imagen')
 
             p.mx-3.text-center.pb-4 ¿Cómo tratar cada soporte documental (análogo, electrónico, digital)?
 
@@ -39,7 +39,7 @@
             .row.justify-content-center
               .col-7
                 figure
-                  img.mx-auto.d-block.p-4(src='@/assets/curso/tema1/img03.svg', alt='Texto que describa la imagen')
+                  img.img-t.mx-auto.d-block.p-4(src='@/assets/curso/tema1/img03.svg', alt='Texto que describa la imagen')
 
             p.mx-3.text-center.pb-4 ¿Qué acciones implementar para quienes tienen la tarea de mover la información dentro de la entidad?
       
@@ -49,21 +49,18 @@
           p.m-0 Los controles asignados a la gestión documental, no solo son formatos, planillas y formularios, hay que partir desde los planes, proyectos, programas, manuales e instrumentos archivísticos que, orientados en la normatividad, se puedan contemplar los objetivos a corto, mediano y largo plazo de la entidad, a su vez cada una de las actividades, los roles y las responsabilidades de cada funcionario en el proceso archivístico. En capacitaciones orientadas a encargados del área de correspondencia y de archivo se coincidía en la existencia de dos panoramas:
         .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-12.col-12(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img04.png')  
-        
-      .row.justify-content-center.mb-5
-        .col-12.col-xxl-6.col-xl-6.col-lg-6.col-md-6.mb-5.mb-lg-0
-          .tarjeta.tarjeta-text1
-            img(src="@/assets/curso/tema1/img29.png" alt="Adornos flotantes" style="width: 100% ").mb-3
-            .tarjeta-text1__contenido.px-4.pb-4.pt-3
-              h4.text-white.pb-0.pb-lg-4 La empresa cuenta con planes manuales, proyectos y demás, pero no se aplica:
-              p.text-white.pe-5.pe-lg-0.me-4.me-lg-0 Es una de las variantes que se repiten en la respuesta del funcionario encargado del documento quien, por desconocimiento, hace caso omiso a los parámetros y termina organizando la información sin la ayuda de ningún material. A través de sensibilizaciones, capacitaciones y asignación de roles se ataca este flagelo.
 
-        .col-12.col-xxl-6.col-xl-6.col-lg-6.col-md-6
-          .tarjeta.tarjeta-text2
-            img(src="@/assets/curso/tema1/img30.png" alt="Adornos flotantes" style="width: 100% ").mb-3
-            .tarjeta-text2__contenido.px-4.pb-4.pt-3
-              h4.text-white.p-1 La empresa no cuenta con ningún contenido para la orientación de los procesos:
-              p.text-white Aquí es aún más grave y compleja la situación, porque se parte de cero, la única base es el manual de funciones en la que se producen los documentos de manera irracional atropellando las políticas de cero papeles.
+      .row.justify-content-center.mt-5(data-aos='zoom-in').mb-5
+        .col-lg-6.mb-3.mb-lg-0
+          .tarjeta-up(:style="{'background-image': `url(${require('@/assets/curso/tema1/img29.png')})`}")
+            .tarjeta-up__content.color-secundario.p-4
+              h4.mb-4 La empresa cuenta con planes manuales, proyectos y demás, pero no se aplica:
+              p.m-0 Es una de las variantes que se repiten en la respuesta del funcionario encargado del documento quien, por desconocimiento, hace caso omiso a los parámetros y termina organizando la información sin la ayuda de ningún material. A través de sensibilizaciones, capacitaciones y asignación de roles se ataca este flagelo.
+        .col-lg-6.mb-3.mb-lg-0
+          .tarjeta-up(:style="{'background-image': `url(${require('@/assets/curso/tema1/img30.png')})`}")
+              .tarjeta-up__content.color-primario.p-4
+                h4.mb-4 La empresa no cuenta con ningún contenido para la orientación de los procesos:
+                p.mb-5 Aquí es aún más grave y compleja la situación, porque se parte de cero, la única base es el manual de funciones en la que se producen los documentos de manera irracional atropellando las políticas de cero papeles.
       
       p.mb-4 Sea cual sea el panorama de la empresa en la que se trabaje, no se debe descuidar o desechar la información tendiente a la gestión documental, ya que ella es el eslabón que ofrece la entidad al colaborador para manipular adecuadamente la documentación. Toda organización que haga uso de los sistemas de gestión va un paso más allá de aquellas que sus procesos siguen siendo manuales. 
       p.mb-4 El siguiente es un comparativo de las empresas con gestión documental y las que no la tienen:
@@ -122,48 +119,50 @@
                 .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
                   .p-4
                     h4.text-center Recepción
-                    p.m-0 01        
+                  h5.m-0.color_num 01        
               .tarjeta-avatar
                 img(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
                 .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
                   .p-4
                     h4.text-center Radicación
-                    p.m-0 02 
+                  h5.m-0.color_num 02 
               .tarjeta-avatar
                 img(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
                 .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
                   .p-4
                     h4.text-center Registro
-                    p.m-0 03
+                  h5.m-0.color_num 03
               .tarjeta-avatar
                 img(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
                 .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
                   .p-4
                     h4.text-center Distribución
-                    p.m-0 04
+                  h5.m-0.color_num 04
               .tarjeta-avatar
                 img(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
                 .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
                   .p-4
                     h4.text-center Seguimiento
-                    p.m-0 05
+                  h5.m-0.color_num 05
 
-        #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
           h2 1.1. Aspectos de la organización documental
       
-      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right").margin_fa-quote-left2.margin_fa-quote-right2.display_bloque-texto2
-        .col-xxl-4.col-xl-4.col-lg-4.col-md-11.col-sm-12.col-12.medidas_bloque-texto2
+      .row.justify-content-center.mb-4(data-aos="fade-right").margin_fa-quote-left2.margin_fa-quote-right2.display_bloque-texto2
+        .col-lg-4.medidas_bloque-texto2
           p.mb-4 Tal como lo relata MailxMail.com (2010) los aspectos de la organización documental se consideran
-          .bloque-texto-b.color-secundario.ps-3
+          .bloque-texto-b.color-secundario.px-3.mb-4.mb-lg-0
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p un proceso técnico archivístico que consiste en el desarrollo de un conjunto de acciones orientadas a clasificar, ordenar y asignar los documentos de cada entidad.
               i.fas.fa-quote-right 
-        .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12.mb-4.md-mb-0(data-aos="fade-left")
+        .col-lg-4.mb-4.md-mb-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/tema1/img12.png')  
-        .col-xxl-4.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12(data-aos="fade-left")
-          p.m-0 En este proceso se debe alcanzar a identificar las respectivas series y subseries documentales, el procedimiento posterior a la recepción de los documentos y producción de respuestas acorde al trámite solicitado es la conformación del expediente que constituya parte del fondo documental para la conservación y consulta de dicha información. En esta acción es mediador el funcionario del área de correspondencia, ya que las consultas que realice el usuario sobre el seguimiento al radicado son verificadas por parte de correspondencia y tenidas en cuenta en la trazabilidad del proceso.
+            img(src='@/assets/curso/tema1/img12.png' style= "height: 242px")  
+        .col-lg-4(data-aos="fade-left")
+          .row
+            .col-lg-12
+              p.m-0 En este proceso se debe alcanzar a identificar las respectivas series y subseries documentales, el procedimiento posterior a la recepción de los documentos y producción de respuestas acorde al trámite solicitado es la conformación del expediente que constituya parte del fondo documental para la conservación y consulta de dicha información. En esta acción es mediador el funcionario del área de correspondencia, ya que las consultas que realice el usuario sobre el seguimiento al radicado son verificadas por parte de correspondencia y tenidas en cuenta en la trazabilidad del proceso.
 
       p.mb-4 La existencia de planificación, manejo y organización en cada unidad administrativa es el indicio preponderante de gestión documental. La organización documental no solo favorece a la entidad, sino a los usuarios que, cada vez que pueden, hacen el llamado sobre los controles administrativos y documentales para la atención al usuario, por ende, se describen las principales valoraciones en la organización de la información vistas desde dos ambientes:
 
@@ -209,10 +208,10 @@
                         | Satisfacción de necesidades informativas.
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right")
-        .col-xxl-7.col-xl-7.col-lg-7.col-md-11.col-sm-12.col-12
+        .col-lg-7
           p.mb-4 Hablar de organización documental en el área de correspondencia es clasificar, ordenar y describir los metadatos para la entrada de la comunicación al sistema de gestión documental, leer la información allí contenida para realizar una adecuada distribución hacia las áreas competentes y ejercer control de la información que se encuentra en trámite, aunque no siempre la información que se recoge a través de los diferentes mecanismos de notificación dispuestos por la entidad genera respuesta, algunas comunicaciones son informativas, por tanto, no aplica trámite y es importante dejarlo claro en los controles que se emplean. 
-          p.m-0 Dentro de los controles que se ejercen a los documentos de archivo en la gestión documental se encuentra:
-        .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-12.col-12(data-aos="fade-left")
+          p.m-0.mb-3.mb-lg-0 Dentro de los controles que se ejercen a los documentos de archivo en la gestión documental se encuentra:
+        .col-lg-5(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema1/img04.png') 
 
@@ -400,7 +399,7 @@
 
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.2. Clasificación documental
 
     p.mb-4 Es el primer aspecto que se considera dentro de la organización documental para controlar y gestionar la información a través de un orden jerárquico y funcional para dejar ver su contenido. La tarea de clasificar la documentación es separarla de acuerdo con lo recomendado en el siguiente gráfico:
@@ -461,7 +460,7 @@
 
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.3.	Utilidad de los principios archivísticos
 
     p.mb-4 La organización documental en las unidades administrativas se refleja desde la cooperación del funcionario que establece la documentación física o electrónica en los expedientes de acuerdo con los principios archivísticos, cuya herramienta beneficia el acceso a la información mediante búsquedas oportunas y la identificación de origen de la información. Los dos principios que enmarcan esta acción son los de procedencia y de orden original, como se muestra a continuación: 
@@ -479,13 +478,13 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/-07M4BNCMso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
       .row.justify-content-center.align-items-center
-        .col-xxl-5.col-lg-5.col-md-5.col-sm-5.col-12(data-aos="zoom-in-up")
+        .col-lg-5(data-aos="zoom-in-up").mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/img20.svg')
-        .col-xxl-7.col-lg-7.col-md-7.col-sm-10.col-12(data-aos="fade-down-right")
+        .col-lg-7(data-aos="fade-down-right")
           p Aplicar el principio de procedencia en el área de correspondencia es identificar asertivamente la documentación que genera trámite y a qué unidad administrativa ha de direccionarla, así como revisar las firmas que avalen la producción de la respuesta. Además, el principio de procedencia le permite a la unidad de correspondencia que las demás unidades administrativas produzcan y reciban documentos de acuerdo con las funciones establecidas en el manual de funciones y que por ningún motivo se fusionen documentos que ocasionen la desorganización documental.
           p La inexistencia de este principio de procedencia conduce a fondos documentales sin criterios archivísticos y genera entre las dependencias distancias en:
-          ul.lista-ul--color.mb-2
+          ul.lista-ul--color.mb-4.mb-4.mb-lg-2
             li 
               i.fas.fa-book-open
               p.m-0 Políticas organizacionales.
@@ -499,10 +498,10 @@
               i.fas.fa-book-open
               p.m-0 Políticas de gestión documental.
 
-      .row.justify-content-center.align-items-center
-        .col-xxl-7.col-lg-7.col-md-7.col-sm-10.col-12(data-aos="fade-down-left")
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-0
+        .col-lg-7(data-aos="fade-down-left")
           p Clasificar la información haciendo uso del principio de procedencia, es una tarea de todos los funcionarios, no es exclusiva del área de archivo, de correspondencia y/o área de gestión documental, sobre todo porque la documentación que entra, se produce y se despacha es una actividad transversal al ejercicio de la entidad; es decir, que cada funcionario revisa las comunicaciones que le entrega la unidad de correspondencia para empezar actuar dando trámite o devolverla por no ser competencia de su área. En efecto, cada área solo podrá reportar, resguardar y conservar la información que genera y reciba de acuerdo con el manual de funciones y lo descrito en el Cuadro de Clasificación Documental (CDC) y las Tablas de Retención Documental (TRD), en la siguiente tabla se muestra la diferencia entre ambas:
-        .col-xxl-5.col-lg-5.col-md-5.col-sm-6.col-12(data-aos="fade-left")
+        .col-lg-5(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img21.svg')
 
     .titulo-sexto.color-acento-contenido
@@ -510,7 +509,7 @@
       span.text-small <em>Diferencias entre CCD y TRD</em>
 
     .row.justify-content-center.mb-5
-      .col-xxl-10.col-lg-10.col-sm-10.col-12
+      .col-lg-10
           table.vertical_top
             thead
               tr.bg_color_fondo_tr                
@@ -550,11 +549,11 @@
 
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.4.	Ordenación documental
     
     .fondo3
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-2.mb-lg-4
         .col-xxl-4.col-lg-4.col-md-4.col-sm-3.col-12(data-aos="fade-up")
           figure.mb-4.mb-md-0
             img(src='@/assets/curso/tema1/img22.png')
@@ -576,7 +575,7 @@
     
       p.mb-0.mb-md-4 La ordenación documental establece los documentos que van inicialmente y los que van posteriormente en la incorporación del expediente y este, a su vez, se conforma con lo dispuesto en las TRD (Tablas de Revisión Documental) en:
 
-      .row.justify-content-center.mb-3.mb-lg-0.display_tarjetas2
+      .row.justify-content-center.mb-4.mb-lg-0.display_tarjetas2
         .col-md-6.col-lg.mb-0.mb-lg-5
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/img24.svg' alt='AvatarTop')
@@ -599,10 +598,10 @@
                 h4.mb-0.text-center Tipos documentales
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-xxl-7.col-lg-7.col-md-7.col-sm-10.col-12(data-aos="fade-left")
+        .col-lg-7(data-aos="fade-left").mb-4.mb-lg-0
           p Los responsables de cada unidad administrativa basan la ordenación documental en la conformación de expedientes que agrupen la serie documental, subseries y los tipos documentales, en los que internamente se exprese la secuencia de la gestión. La relación archivística presenta entre la estructura orgánica y las funciones que producen los documentos que se ordenan en las series documentales. El principio de orden original es fundamental para determinar que el expediente se encuentra ordenado y clasificado según el principio de procedencia, esto es que la ordenación se fundamenta en los principios archivísticos.
           p El sistema de ordenación adoptado por la entidad le aporta oportunidad en la localización de la información, esta adopción depende de las características y el volumen de la serie, por tanto, el sistema de ordenación no es una camisa de fuerza para cada unidad administrativa, sino que está facultada para adoptar el sistema de ordenación que favorezca sus objetivos en el acceso de información, seguridad y consulta del archivo de gestión. Los sistemas de ordenación que se utilizan para clasificar y localizar adecuadamente el acervo documental son:
-        .col-xxl-5.col-lg-5.col-md-5.col-sm-6.col-12(data-aos="zoom-in-up")
+        .col-lg-5(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img27.svg')
 
     h4 Sistema de ordenación alfabético
@@ -610,7 +609,7 @@
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Onomásticos")
         h4 Onomásticos
-        p.mx-4 El más utilizado por el sector de la salud y educación, ya que estos ambientes manejan grandes cantidades de gestión de información suministradas en expedientes, por tanto, se ordenan las historias clínicas y las historias académicas en razón del nombre del usuario y del estudiante, teniendo en cuenta el siguiente orden:
+        p El más utilizado por el sector de la salud y educación, ya que estos ambientes manejan grandes cantidades de gestión de información suministradas en expedientes, por tanto, se ordenan las historias clínicas y las historias académicas en razón del nombre del usuario y del estudiante, teniendo en cuenta el siguiente orden:
         ul.lista-ul--color
           li 
             i.fas.fa-book-open
@@ -638,31 +637,48 @@
     h4.text-center.mb-4 Sistema de ordenación numérica 
 
     .bg_imgfondo2_t1
-      .row.justify-content-center.mb-5(data-aos="fade-down-left")
-        .col-12.col-lg-5.mb-6.mb-lg-0.mb-4.mb-lg-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido
-                img(src='@/assets/curso/tema1/img28_2.svg')
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img28_1.png')})`}")
-
-        .col-12.col-lg-5.mb-6.mb-lg-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido
-                img(src='@/assets/curso/tema1/img29_2.svg')
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img29_1.svg')})`}")
+      .row.justify-content-center.align-items-center.mt-5
+        .col-lg-10
+          .row.mb-md-5(data-aos="fade-down")
+            .col-lg-6.mb-3
+              .tarjeta.tarjeta-foto-hover
+                .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img27.png')
+                .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3.bgh
+                  h2.text-center.text-white Ordinal
+                .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+                  .p-5
+                    h2.mt-4.mb-5.text-center Ordinal
+                    p.mb-0 Utilizado en las áreas contables para ordenar la documentación de acuerdo al consecutivo que registra el documento.
+                    p Ejemplo: comprobantes de egreso, cuentas de servicios públicos, facturas, entre otros. 
+            .col-lg-6.mb-3
+              .tarjeta.tarjeta-foto-hover
+                .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img28.png')
+                .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-3.bgh
+                  h2.text-center.text-white Cronológico
+                .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+                  .p-4.p-sm-5
+                    h2.mt-4.text-center.mb-1.mb-lg-4 Cronológico
+                    p.mb-0.e_entrelineas1 Consiste en la ordenación de fechas dentro del expediente, en donde se tiene en cuenta los siguientes datos:
+                    ul.lista-ul--color
+                      li.m_bottom2 
+                        i.fas.fa-book-open
+                        p.m-0 Año
+                      li.m_bottom2 
+                        i.fas.fa-book-open
+                        p.m-0 Mes
+                      li.m_bottom2
+                        i.fas.fa-book-open
+                        p.m-0 Día
+                    p.e_entrelineas1 En el que se recibieron o elaboraron los documentos para su ordenación en el expediente. Este sistema es el más frecuente adoptado en las entidades para ordenar internamente las series.
 
       p También es posible ordenar por medio de:
       h4.text-center.mb-4 Sistema de ordenación alfanumérico
 
       .row.bg_fondo_t1-4.justify-content-center.align-items-center.mb-5
-        .col-12.col-xxl-5.col-lg-5.col-md-5.col-sm-5
+        .col-lg-5.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/img31.png')
-        .col-12.col-xxl-7.col-lg-7.col-md-7.col-sm-7(data-aos="fade-up")
+        .col-lg-7(data-aos="fade-up")
           p.m-0.pe-3 Utilizado en grandes cantidades de documentos que proporciona la entidad, por ejemplo, en el caso del sector salud, no solo basta la ordenación del expediente alfabéticamente, hay que utilizar otro criterio para facilitar la optimización de la consulta, por ello, se hace necesario que se ordene en razón del número de identificación del usuario.
           p.m-0.pe-3 El sistema de ordenación alfanumérico o mixto es aquel que utiliza el orden alfabético y numérico para acceder a la información. 
 
@@ -716,7 +732,7 @@
     
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 1.5.	Descripción documental
     
     .row.justify-content-center.mb-4
@@ -805,7 +821,7 @@
             figure
               img(src='@/assets/curso/tema1/img42.svg', alt='Texto que describa la imagen')
         .row.align-items-center.mb-0.mb-md-4
-          .col-md-5
+          .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema1/img43.png', alt='Texto que describa la imagen')
           .col-md-7
@@ -913,55 +929,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.tarjeta-text1
-  position: relative
-  overflow: hidden
-  border-radius: 0px
-
-  &__contenido
-    width: 100%
-    transition: bottom 0.3s ease-in-out
-    border-radius: 0px
-    position: absolute
-    background-color: #146C71
-    bottom: -11%
-    p
-      display: none
-      transition: opacity 0.3s ease-in-out
-      opacity: 0
-
-  &:hover
-    .tarjeta-text1__contenido
-      bottom: 0
-      @media screen and ( max-width: 420px)
-        width: 130%
-        height: 270px
-      p
-        display: block
-        opacity: 1
-
-.tarjeta-text2
-  position: relative
-  overflow: hidden
-  border-radius: 0px
-
-  &__contenido
-    width: 100%
-    transition: bottom 0.3s ease-in-out
-    border-radius: 0px
-    position: absolute
-    background-color: #2D516B
-    bottom: -7%
-    p
-      display: none
-      transition: opacity 0.3s ease-in-out
-      opacity: 0
-
-  &:hover
-    .tarjeta-text2__contenido
-      bottom: 0
-      p
-        display: block
-        opacity: 1
-</style>
+<style lang="sass"></style>

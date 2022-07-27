@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Fundamentos generales de la gestión documental
+      h1(data-aos="fade-right") Fundamentos generales de la gestión documental
 
     p En el siguiente video se pueden precisar los fundamentos de la gestión documental:
 
@@ -14,7 +14,7 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/yO2adpG_KPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-      #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
           h2 2.1. Etapas de la gestión documental
 
       p.mb-4 Las etapas que se detallan a continuación deben hacerse de manera adecuada para que la entidad pueda gestionar la información de manera eficiente y conformar el patrimonio documental. Las entidades públicas abanderan estas etapas, puesto que reconocen el valor de seguir cada una de estas fases:
@@ -44,7 +44,7 @@
 
       Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 2.2.	Requerimientos de la gestión documental
 
     p.mb-4 La categorización de la gestión documental es influenciada por lo siguientes requerimientos:
@@ -57,21 +57,21 @@
       .tarjeta.bg_color_tarinfo-t2.p-3(x="41.5%" y="9.4%" numero="+")
         p <b>Normativos:</b> todos los procesos que intervienen en el manejo de la información deben contar con la normalización vigente que regule la administración del documento. La normativa a tener en cuenta es acuerdos, decretos, resoluciones y leyes que amparen la legislación archivística. 
       
-      .tarjeta.p-3.bg_color_tarinfo-t2(x="41.5%" y="29.4%" numero="+")
+      .tarjeta.p-3.bg_color_tarinfo-t2-2(x="41.5%" y="29.4%" numero="+")
         p <b>Económicos:</b> refiere a la entidad que garantice todos los lineamientos, acciones y cumplimientos de objetivos que se esbozan en el programa de gestión documental, de lo contrario, se está faltando a lo que infiere el manual en cuanto a la gestión del documento; asimismo, se recomienda que quien elabore o diseñe el programa de gestión documental tenga en cuenta los recursos que invierte la entidad para que no se establezcan procesos y planes que no se van a efectuar del todo por falta del recurso económico necesario.
 
-      .tarjeta.bg_color_tarinfo-t2.p-3(x="41.5%" y="48.8%" numero="+")
+      .tarjeta.bg_color_tarinfo-t2-3.p-3(x="41.5%" y="48.8%" numero="+")
         p <b>Administrativos:</b> refiere a la administración del talento humano, el perfil del colaborador, la asignación de los tiempos para cada actividad, búsqueda de funcionarios tecnológicos como son los ingenieros de sistemas que aportan enormemente a la gestión de los documentos electrónicos. En el programa de gestión documental se determina puntualmente que funcionario esta a cargo de cada actividad, su perfil y la secuencia del proceso que sigue.
 
-      .tarjeta.bg_color_tarinfo-t2.p-3(x="41.5%" y="69%" numero="+")
+      .tarjeta.bg_color_tarinfo-t2-3.p-3(x="41.5%" y="69%" numero="+")
         p <b>Tecnológicos:</b> se entiende por la capacidad de almacenamiento de la información digital y su seguridad. El objetivo debe cumplir con la inserción del e-gobierno en las entidades públicas cuya finalidad es el acercamiento al ciudadano mediante la prestación del servicio de manera digital, es muy importante pensar en el acceso a la plataforma, la consulta y la publicación de los documentos y el requerimiento para ello. 
 
-      .tarjeta.bg_color_tarinfo-t2.p-3(x="41.5%" y="91.2%" numero="+")
+      .tarjeta.bg_color_tarinfo-t2-3.p-3(x="41.5%" y="91.2%" numero="+")
         p <b>Gestión del cambio:</b> refiere a la actualización constante de las instituciones, el trabajo de cada colaborador y su capacitación, se debe buscar que la gestión documental funcione en su totalidad sensibilizando a todas las partes del proceso, cada empresa debe estar abierta a las sugerencias y al cambio en caso de ser necesario, no se pueden aferrar a viejas políticas sin justificación alguna.
 
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 2.3 Procesos de la gestión documental
     
     p.mb-4 Los procesos de la gestión documental se fundamentan en lo expuesto por la Presidencia de la República en el Decreto 2609 (2012), que determina que la gestión de documentos responde a interrogantes sobre ¿qué hacer? y ¿cómo hacer? en el trámite de los documentos de todo tipo. A continuación, se describen los procesos que debe abordar la entidad en su sistema de gestión documental, en cada uno de los elementos se presentan los subprocesos que se llevan a cabo en cada fase:
@@ -83,7 +83,7 @@
             figure
               img(src='@/assets/curso/tema2/img02.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.bg_color_tarinfo2-t2.p-3(x="59.1%" y="4.2%" numero="+")
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="59.1%" y="3.2%" numero="+")
             .h4.mb-2 Planeación
             ul.lista-ul--color.mb-2
               li 
@@ -95,7 +95,7 @@
               li
                 i.fas.fa-book-open
                 p.m-0 Instrumentos archivísticos.
-          .tarjeta.p-3.bg_color_tarinfo2-t2(x="90.2%" y="27.1%" numero="+")
+          .tarjeta.p-3.bg_color_tarinfo2-t2(x="92.2%" y="26.4%" numero="+")
             .h4.mb-2 Producción 
             ul.lista-ul--color.mb-2
               li 
@@ -104,7 +104,7 @@
               li 
                 i.fas.fa-book-open
                 p.m-0 Elaboración de documentos.
-          .tarjeta.bg_color_tarinfo2-t2.p-3(x="96.9%" y="50.2%" numero="+")
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="99%" y="50%" numero="+")
             .h4.mb-2 Gestión y trámite
             ul.lista-ul--color.mb-2
               li 
@@ -116,7 +116,7 @@
               li
                 i.fas.fa-book-open
                 p.m-0 Alerta de respuestas a comunicaciones.
-          .tarjeta.bg_color_tarinfo2-t2.p-3(x="90.2%" y="73.7%" numero="+")
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="92.2%" y="73.8%" numero="+")
             .h4.mb-2 Organización
             ul.lista-ul--color.mb-2
               li 
@@ -131,7 +131,7 @@
               li
                 i.fas.fa-book-open
                 p.m-0 Descripción.
-          .tarjeta.bg_color_tarinfo2-t2.p-3(x="3.3%" y="50.2%" numero="+")
+          .tarjeta.bg_color_tarinfo2-t2-2.p-3(x="1.4%" y="50%" numero="+")
             .h4.mb-2 Transferencia
             ul.lista-ul--color.mb-2
               li 
@@ -140,7 +140,7 @@
               li 
                 i.fas.fa-book-open
                 p.m-0 Migración de metadatos.
-          .tarjeta.bg_color_tarinfo2-t2.p-3(x="2.1%" y="27.1%" numero="+")
+          .tarjeta.bg_color_tarinfo2-t2-2.p-3(x="0.1%" y="26.2%" numero="+")
             .h4.mb-2 Disposición
             ul.lista-ul--color.mb-2
               li 
@@ -155,7 +155,7 @@
               li
                 i.fas.fa-book-open
                 p.m-0 Eliminación.
-          .tarjeta.bg_color_tarinfo2-t2.p-3(x="10.1%" y="73.7%" numero="+")
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="7.4%" y="73.7%" numero="+")
             .h4.mb-2 Preservación
             ul.lista-ul--color.mb-2
               li 
@@ -164,7 +164,7 @@
               li 
                 i.fas.fa-book-open
                 p.m-0 Plan de conservación.
-          .tarjeta.bg_color_tarinfo2-t2.p-3(x="58%" y="96%" numero="+")
+          .tarjeta.bg_color_tarinfo2-t2.p-3(x="59%" y="96.5%" numero="+")
             .h4.mb-2 Valoración
             ul.lista-ul--color.mb-2
               li 
@@ -190,7 +190,7 @@
     
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 2.4 Programa de Gestión Documental – PGD
 
     p.mb-4 El PGD es el instrumento archivístico en el que se desglosan en tiempo específico los lineamientos y acciones de la gestión documental; así, una entidad sin una base para el manejo de la documentación está destinada a existir con las siguientes dificultades.
@@ -277,65 +277,65 @@
     
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 2.5 Gestión y trámite documental 
     
     p En la unidad de correspondencia recaen las labores de gestión y trámite de los documentos tramitados por la empresa, estas labores son las siguientes.
 
     .row.align-items-center.mb-4
-      .col-12.col-xxl-3.col-lg-3.col-md-3(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema2/img09.png')
-      .col-12.col-xxl-3.col-lg-3.col-md-3(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema2/img10.png')
-      .col-12.col-xxl-3.col-lg-3.col-md-3(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema2/img11.png')
-      .col-12.col-xxl-3.col-lg-3.col-md-3(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema2/img12.png')
-    
+      .col-lg-3(data-aos="fade-left")
+        .bg_tar.tar_1.bg_tar--100.p-4.mx-auto
+          p.text-white.text-center Planillas de reparto de correspondencia
+      .col-lg-3(data-aos="fade-left")
+        .bg_tar.tar_2.bg_tar--100.p-4.mx-auto
+          p.text-white.text-center.mx-4 Flujo de procesos y funciones
+      .col-lg-3(data-aos="fade-left")
+        .bg_tar.tar_3.bg_tar--100.p-4.mx-auto
+          p.text-white.text-center.mx-2 Consulta de documentos. Tablas de control de acceso
+      .col-lg-3(data-aos="fade-left")
+        .bg_tar.tar_4.bg_tar--100.p-4.mx-auto
+          p.text-white.text-center.mx-4 Alerta de respuesta a tramites
+              
     .fondo3-t2
       p Cada una de estas funciones debe estar clara en los procesos de gestión documental y debe tener un responsable que afirme cuándo se hizo bien y valide que se está cumpliendo y evitando así contratiempos.
 
       p.mb-5 <b>Con relación a los aspectos del proceso de gestión y trámite de documentos los pasos más importantes son los siguientes:</b>
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-8.col-md-8
+        .col-lg-8
           .titulo-sexto.color-acento-contenido
             h5 Figura 4
             span.text-small <em>Aspectos de gestión y trámite</em>
           .row.justify-content-center.align-items-center(data-aos="fade-right")
             .col-lg-6
-              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+              .tarjeta-avatar-b.mb-4.bg_color-hov-tar2
                 .tarjeta-avatar-b__img
                   img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
                 .tarjeta.tarjeta--boton.bg_color6
                   .p-4
-                    p Registro de documentos
+                    p.mb-0.text-center.me-4 Registro de documentos
             .col-lg-6
-              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+              .tarjeta-avatar-b.mb-4.bg_color-hov-tar2
                 .tarjeta-avatar-b__img
                   img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
                 .tarjeta.tarjeta--boton.bg_color6
                   .p-4
-                    p Distribución
+                    p.mb-0.text-center.me-5 Distribución
           .row.justify-content-center.align-items-center(data-aos="fade-left")
             .col-lg-6
-              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+              .tarjeta-avatar-b.mb-4.bg_color-hov-tar2
                 .tarjeta-avatar-b__img
                   img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
                 .tarjeta.tarjeta--boton.bg_color6
                   .p-4
-                    p Acceso y consulta
+                    p.mb-0.text-center.me-4 Acceso y consulta
             .col-lg-6
-              .tarjeta-avatar-b.mb-5.bg_color-hov-tar2
+              .tarjeta-avatar-b.mb-4.bg_color-hov-tar2
                 .tarjeta-avatar-b__img
                   img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
                 .tarjeta.tarjeta--boton.bg_color6
                   .p-4
-                    p Control y seguimiento
+                    p.mb-0.text-center.me-4 Control y seguimiento
 
       .row.justify-content-center.align-items-center
         .col-12.col-lg-8.col-md-8
@@ -359,7 +359,7 @@
 
     Separador
 
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
         h2 2.6 Trazabilidad de la información
 
     .row.justify-content-center.align-items-center
@@ -370,71 +370,52 @@
           .tarjeta.p-4.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3
               .col-6
-                img(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
             h4.text-center Recepción 
             p.text-center Verificación y control de los documentos que llegan a la entidad para dar trámite. Servicio que actualmente se brinda a través de diferentes medios: correo electrónico, correo tradicional, fax, correo certificado y otros canales.
 
           .tarjeta.p-4.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3.bg_color7
               .col-6
-                img(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
             h4.text-center Trámite
             p.text-center Preparación de la comunicación, la cual es elaborada por las dependencias para conformar las series documentales, en donde se analiza la competencia, tiempos de respuesta y se prepara la comunicación.
 
           .tarjeta.p-4.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3
               .col-6
-                img(src='@/assets/curso/tema2/img20.svg' alt='AvatarTop')
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img20.svg' alt='AvatarTop')
             h4.text-center Producción
             p.text-center Se crea el documento, se estipula la forma de envío (internet o impreso), se tienen en cuenta parámetros como la coherencia del mensaje y el tipo documental que se elige para producir la información.
 
           .tarjeta.p-4.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3
               .col-6
-                img(src='@/assets/curso/tema2/img21.svg' alt='AvatarTop')
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img21.svg' alt='AvatarTop')
             h4.text-center Distribución
             p.text-center Inicia con los documentos del exterior al interior de la entidad, en los que el funcionario de la unidad de correspondencia deberá hacer uso de herramientas de control para la recepción y envío.
 
           .tarjeta.p-4.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3
               .col-6
-                img(src='@/assets/curso/tema2/img22.svg' alt='AvatarTop')
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img22.svg' alt='AvatarTop')
             h4.text-center Organización 
             p.text-center La sumatoria de los procedimientos: clasificación + ordenación + descripción.
 
           .tarjeta.p-4.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3
               .col-6
-                img(src='@/assets/curso/tema2/img23.svg' alt='AvatarTop')
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img23.svg' alt='AvatarTop')
             h4.text-center Consulta 
             p.text-center No es una tarea propia de la unidad de correspondencia, aunque se cita en la trazabilidad de información, en vista que los usuarios se acercan a la ventanilla única solicitando información de su radicado; a ello le denominamos consulta dentro del área de correspondencia.
 
           .tarjeta.p-4.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3
               .col-6
-                img(src='@/assets/curso/tema2/img24.svg' alt='AvatarTop')
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img24.svg' alt='AvatarTop')
             h4.text-center Conservación
             p.text-center Almacenar la documentación según lo estipula la norma en espacios y unidades de conservación apropiadas para el ambiente digital y análogo de la información.
-
-
-      
-
-
-
     
-          
-
-
-
-
-
-
-      
-
-
-
-    
-       
         
 
 </template>

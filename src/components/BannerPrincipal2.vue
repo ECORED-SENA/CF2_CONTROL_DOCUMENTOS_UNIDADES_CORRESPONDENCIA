@@ -12,17 +12,14 @@
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span.me-1 Iniciar
+            span.me-1 Ver más
             i.fas.fa-angle-right
 
-      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+      .d-none.d-lg-block.col-lg-5.col-xl-4.col-xxl-5.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 470px; margin-left:80px;")
     .imagen_flotante_1.d-none.d-xl-block: img(src="@/assets/curso/portada/float1.png")
     .imagen_flotante_2.d-none.d-xl-block: img(src="@/assets/curso/portada/float2.png")
-    //--.imagen_flotante_3.d-none.d-xl-block: img(src="@/assets/curso/inicio/float3.svg")
-    //--.imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/inicio/float4.svg")
-    //--.imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/banner-principal.png")
-  
+   
 
 </template>
 
@@ -91,7 +88,7 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
   &__img
-    animation: scale 2s ease-in-out infinite alternate
+    animation: scale 6s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem
@@ -111,60 +108,22 @@ export default {
         padding-bottom: 3rem!important
 .imagen_flotante
   &_1
-    animation: float1 3s ease-in-out infinite alternate
+    animation: float1 5s ease-in-out infinite alternate
     position: absolute
     width: 100px
-    bottom: 250px
-    left: 60%
+    bottom: 308px
+    left: 64%
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      bottom: 235px
+      left: 69%
+
   &_2
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 5s ease-in-out infinite alternate
     position: absolute
     width: 100px
     bottom: 20%
     left: 85%
-  &_3
-    animation: float1 3.8s ease-in-out infinite alternate
-    position: absolute
-    width: 60px
-    bottom: 50%
-    left: 55%
-  &_4
-    animation: float1 4s ease-in-out infinite alternate
-    position: absolute
-    width: 30px
-    top: 21%
-    left: 81%
-    z-index: 99
-  &_5
-    animation: float1 3.9s ease-in-out infinite alternate
-    position: absolute
-    width: 65px
-    top: 45%
-    left: 85%
-    z-index: 99
-  &_6
-    filter: blur(2px)
-    animation: float1 2.7s ease-in-out infinite alternate
-    position: absolute
-    width: 167px
-    top: 30%
-    right: 3%
-    z-index: 99
-  &_7
-    animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    width: 50px
-    bottom: 10%
-    right: 3%
-    z-index: 99
-  &_8
-    filter: blur(1px)
-    animation: float1 3s ease-in-out infinite alternate
-    position: absolute
-    width: 50px
-    bottom: 20%
-    right: 8%
-    z-index: 99
+
 @keyframes float1
   0%
     transform: translate(30px,30px)
