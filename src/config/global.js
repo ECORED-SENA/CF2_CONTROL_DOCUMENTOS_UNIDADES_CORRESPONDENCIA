@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Protocolo de las comunicaciones y gestión documental',
     descripcionCurso:
-      'La unidad de correspondencia es parte de la gestión documental en la que se constituyen las etapas, los requerimientos y procesos que fecundan la gestión de la información eficaz; por ello, la participación del programa de gestión documental decide el que hacer de las actividades, los responsables y el tiempo en el contexto documental.',
+      'La unidad de correspondencia es parte de la gestión documental en la que se constituyen las etapas, los requerimientos y procesos que fecundan la gestión de la información eficaz; por ello, la participación del programa de gestión documental decide el quehacer de las actividades, los responsables y el tiempo en el contexto documental.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/portada/banner-interno.png'),

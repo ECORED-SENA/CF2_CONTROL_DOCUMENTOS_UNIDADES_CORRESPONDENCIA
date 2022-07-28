@@ -61,7 +61,7 @@
         p <b>Económicos:</b> refiere a la entidad que garantice todos los lineamientos, acciones y cumplimientos de objetivos que se esbozan en el programa de gestión documental, de lo contrario, se está faltando a lo que infiere el manual en cuanto a la gestión del documento; asimismo, se recomienda que quien elabore o diseñe el programa de gestión documental tenga en cuenta los recursos que invierte la entidad para que no se establezcan procesos y planes que no se van a efectuar del todo por falta del recurso económico necesario.
 
       .tarjeta.bg_color_tarinfo-t2-3.p-3(x="41.5%" y="48.8%" numero="+")
-        p <b>Administrativos:</b> refiere a la administración del talento humano, el perfil del colaborador, la asignación de los tiempos para cada actividad, búsqueda de funcionarios tecnológicos como son los ingenieros de sistemas que aportan enormemente a la gestión de los documentos electrónicos. En el programa de gestión documental se determina puntualmente que funcionario esta a cargo de cada actividad, su perfil y la secuencia del proceso que sigue.
+        p <b>Administrativos:</b> refiere a la administración del talento humano, el perfil del colaborador, la asignación de los tiempos para cada actividad, búsqueda de funcionarios tecnológicos como son los ingenieros de sistemas que aportan enormemente a la gestión de los documentos electrónicos. En el programa de gestión documental se determina puntualmente qué funcionario está a cargo de cada actividad, su perfil y la secuencia del proceso que sigue.
 
       .tarjeta.bg_color_tarinfo-t2-3.p-3(x="41.5%" y="69%" numero="+")
         p <b>Tecnológicos:</b> se entiende por la capacidad de almacenamiento de la información digital y su seguridad. El objetivo debe cumplir con la inserción del e-gobierno en las entidades públicas cuya finalidad es el acercamiento al ciudadano mediante la prestación del servicio de manera digital, es muy importante pensar en el acceso a la plataforma, la consulta y la publicación de los documentos y el requerimiento para ello. 
@@ -191,7 +191,7 @@
     Separador
 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-        h2 2.4 Programa de Gestión Documental – PGD
+        h2 2.4 Programa de gestión documental 
 
     p.mb-4 El PGD es el instrumento archivístico en el que se desglosan en tiempo específico los lineamientos y acciones de la gestión documental; así, una entidad sin una base para el manejo de la documentación está destinada a existir con las siguientes dificultades.
 
@@ -294,10 +294,10 @@
           p.text-white.text-center.mx-2 Consulta de documentos. Tablas de control de acceso
       .col-lg-3(data-aos="fade-left")
         .bg_tar.tar_4.bg_tar--100.p-4.mx-auto
-          p.text-white.text-center.mx-4 Alerta de respuesta a tramites
+          p.text-white.text-center.mx-4 Alerta de respuesta a trámites
               
     .fondo3-t2
-      p Cada una de estas funciones debe estar clara en los procesos de gestión documental y debe tener un responsable que afirme cuándo se hizo bien y valide que se está cumpliendo y evitando así contratiempos.
+      p Cada una de estas funciones debe estar clara en los procesos de gestión documental y debe tener un responsable que afirme cuando se hizo bien y valide que se está cumpliendo y evitando así contratiempos.
 
       p.mb-5 <b>Con relación a los aspectos del proceso de gestión y trámite de documentos los pasos más importantes son los siguientes:</b>
 
@@ -402,7 +402,7 @@
             h4.text-center Organización 
             p.text-center La sumatoria de los procedimientos: clasificación + ordenación + descripción.
 
-          .tarjeta.p-4.bg_color7.height_Slyder-t2
+          .tarjeta.p-3.bg_color7.height_Slyder-t2
             .row.justify-content-center.mb-3
               .col-6
                 img.img-t.mx-auto(src='@/assets/curso/tema2/img23.svg' alt='AvatarTop')

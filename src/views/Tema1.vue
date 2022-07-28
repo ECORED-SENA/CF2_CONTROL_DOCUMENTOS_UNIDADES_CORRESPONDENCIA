@@ -54,8 +54,8 @@
         .col-lg-6.mb-3.mb-lg-0
           .tarjeta-up(:style="{'background-image': `url(${require('@/assets/curso/tema1/img29.png')})`}")
             .tarjeta-up__content.color-secundario.p-4
-              h4.mb-4 La empresa cuenta con planes manuales, proyectos y demás, pero no se aplica:
-              p.m-0 Es una de las variantes que se repiten en la respuesta del funcionario encargado del documento quien, por desconocimiento, hace caso omiso a los parámetros y termina organizando la información sin la ayuda de ningún material. A través de sensibilizaciones, capacitaciones y asignación de roles se ataca este flagelo.
+              h4.mb-4 La empresa cuenta con planes manuales, proyectos y demás, pero no se aplican:
+              p.m-0 Es una de las variantes que se repiten en la respuesta del funcionario encargado del documento, quien, por desconocimiento, hace caso omiso a los parámetros y termina organizando la información sin la ayuda de ningún material. A través de sensibilizaciones, capacitaciones y asignación de roles se ataca este flagelo.
         .col-lg-6.mb-3.mb-lg-0
           .tarjeta-up(:style="{'background-image': `url(${require('@/assets/curso/tema1/img30.png')})`}")
               .tarjeta-up__content.color-primario.p-4
@@ -317,7 +317,7 @@
                     ul.lista-ul--color
                       li 
                         i.fas.fa-book-open
-                        p.m-0 <b>Número de radicado:</b> número consecutivo que el sistema otorga a la comunicación recibida. Por lo general, este número consta de la vigencia (año en curso), seguido del código de la dependencia que atenderá el trámite y por el último el número consecutivo del sistema.
+                        p.m-0 <b>Número de radicado:</b> número consecutivo que el sistema otorga a la comunicación recibida. Por lo general, este número consta de la vigencia (año en curso), seguido del código de la dependencia que atenderá el trámite y por último el número consecutivo del sistema.
                       li
                         i.fas.fa-book-open
                         p.m-0 <b>Fecha de radicado:</b> día, mes y año en que se oficializó el trámite ante la entidad.
@@ -366,7 +366,7 @@
                         i.fas.fa-book-open
                         p.m-0 <b>Tiempo de respuesta:</b> los límites de tiempo (días) que tiene la comunicación.
 
-    p.mb-4 Las empresas implementen diversidad de controles utilizados para la protección de la información que entra y sale de las instalaciones de la entidad, y ello depende del manual de correspondencia, las políticas de gestión documental, los programas de gestión documental, entre otros, que buscan asegurar la información y gestionarla hasta dar cumplimiento con el objetivo de toda comunicación que es estrechar un vínculo informativo entre el usuario externo (persona natural, jurídica) y la entidad. El resultado de la implementación de los controles de información en las unidades administrativas es la organización documental de la entidad.
+    p.mb-4 Las empresas implementan diversidad de controles utilizados para la protección de la información que entra y sale de las instalaciones de la entidad, y ello depende del manual de correspondencia, las políticas de gestión documental, los programas de gestión documental, entre otros, que buscan asegurar la información y gestionarla hasta dar cumplimiento con el objetivo de toda comunicación, que es estrechar un vínculo informativo entre el usuario externo (persona natural, jurídica) y la entidad. El resultado de la implementación de los controles de información en las unidades administrativas es la organización documental de la entidad.
 
     .row.bg_fondo_t1-1.mb-5
       .col-xxl-5.col-lg-5.col-md-5.col-sm-5.col-12
@@ -500,7 +500,7 @@
 
       .row.justify-content-center.align-items-center.mb-4.mb-lg-0
         .col-lg-7(data-aos="fade-down-left")
-          p Clasificar la información haciendo uso del principio de procedencia, es una tarea de todos los funcionarios, no es exclusiva del área de archivo, de correspondencia y/o área de gestión documental, sobre todo porque la documentación que entra, se produce y se despacha es una actividad transversal al ejercicio de la entidad; es decir, que cada funcionario revisa las comunicaciones que le entrega la unidad de correspondencia para empezar actuar dando trámite o devolverla por no ser competencia de su área. En efecto, cada área solo podrá reportar, resguardar y conservar la información que genera y reciba de acuerdo con el manual de funciones y lo descrito en el Cuadro de Clasificación Documental (CDC) y las Tablas de Retención Documental (TRD), en la siguiente tabla se muestra la diferencia entre ambas:
+          p Clasificar la información haciendo uso del principio de procedencia, es una tarea de todos los funcionarios, no es exclusiva del área de archivo, de correspondencia y/o área de gestión documental, sobre todo porque la documentación que entra, se produce y se despacha es una actividad transversal al ejercicio de la entidad; es decir, que cada funcionario revisa las comunicaciones que le entrega la unidad de correspondencia para empezar a actuar dando trámite o devolverla por no ser competencia de su área. En efecto, cada área solo podrá reportar, resguardar y conservar la información que genera y reciba de acuerdo con el manual de funciones y lo descrito en el Cuadro de Clasificación Documental (CDC) y las Tablas de Retención Documental (TRD), en la siguiente tabla se muestra la diferencia entre ambas:
         .col-lg-5(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img21.svg')
 
@@ -516,7 +516,7 @@
                 th
                   p.text-center.mb-0 <b>Cuadro de Clasificación Documental (CCD)</b>
                 th
-                  p.text-center.mb-0 <b>Tablas de retención documental (TRD)</b>
+                  p.text-center.mb-0 <b>Tablas de Retención Documental (TRD)</b>
             tbody
                 tr
                   td.p-3 Instrumento archivístico que relaciona la información de la estructura organizacional y funcional de la entidad, es el pilar de la organización en la documentación. Este instrumento es diseñado y creado por el comité de archivo de la entidad que necesita del organigrama, actos administrativos, manual de funciones y demás para realizar la codificación y clasificación acerca del origen de la documentación.  
@@ -541,7 +541,7 @@
                     p <b>Disposición final:</b> lo que se hace con las series documentales, luego de que cumpla la retención en el archivo central. Conservación, eliminación, selección, microfilmación.
                     p <b>Procedimiento:</b> descripción del proceso de la disposición final.
 
-    p.mb-4 <b>Principio de Orden Original:</b> es uno de los principios fundamentales, revise por qué, en el siguiente video:
+    p.mb-4 <b>Principio de orden original:</b> es uno de los principios fundamentales, revise por qué, en el siguiente video:
        
     figure.mb-5
       .video
