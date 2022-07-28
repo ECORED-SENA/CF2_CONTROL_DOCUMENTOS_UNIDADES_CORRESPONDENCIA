@@ -12,7 +12,7 @@
     .bg_imgfondo1_t2
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/yO2adpG_KPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/y0GllTlCmfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
           h2 2.1. Etapas de la gestión documental
