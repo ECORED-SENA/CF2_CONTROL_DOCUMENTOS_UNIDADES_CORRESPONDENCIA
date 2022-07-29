@@ -10,9 +10,11 @@
     p En el siguiente video se pueden precisar los fundamentos de la gestión documental:
 
     .bg_imgfondo1_t2
-      figure.mb-5
+      figure.mb-4
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/y0GllTlCmfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+      Separador
     
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
           h2 2.1. Etapas de la gestión documental
@@ -25,7 +27,7 @@
             h5 Tabla 2
             span.text-small <em>Etapas de la gestión documental</em>
       
-          .tabla-b.color-acento-contenido.mb-5
+          .tabla-b.color-acento-contenido.mb-4
             .tabla-b__header
               h5.mb-0 
             table
@@ -220,9 +222,9 @@
                   td.p-2.ps-3 Rotulación inadecuada de archivos.   
 
       .row.justify-content-center.align-items-center.img_banner-t2-4.my-5
-        .col-12.col-xxl-8.col-lg-8.col-md-8(data-aos="fade-down-right") 
+        .col-lg-8(data-aos="fade-down-right") 
           p.ms-5 <b>Para la unidad de correspondencia es importante fortalecer las siguientes acciones:</b>
-          ul.lista-ul--color.mb-2.ms-5
+          ul.lista-ul--color.mb-4.ms-5
             li 
               i.fas.fa-book-open
               p.m-0 Recibir y crear documentos.
@@ -232,7 +234,7 @@
             li
               i.fas.fa-book-open
               p.m-0 Clasificar, ordenar y describir la información que se genera en el área de correspondencia.
-        .col-12.col-xxl-4.col-lg-4.col-md-4(data-aos="fade-down-left").mb-5 
+        .col-lg-4(data-aos="fade-down-left").mb-5 
           figure
             img.pe-4.pt-4(src='@/assets/curso/tema2/img05.png')
 

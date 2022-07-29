@@ -110,10 +110,10 @@
                         |Disminución de la calidad en el servicio que ofrece.
 
       .row.justify-content-center.align-items-center(data-aos="fade-up")
-        .col-12.col-xl-5.col-lg-5.col-md-5
+        .col-lg-5
           p.ms-5 Ahora bien, el área de correspondencia es la más beneficiada con la incorporación del sistema de gestión documental que asiste a las actividades de comunicaciones oficiales de entidades públicas o privadas en:
-        .col-12.col-xl-7.col-lg-7.col-md-7.display_tarjetas2
-          SlyderF.mb-5(columnas="col-md-6.col-lg-6 col-xl-6")
+        .col-lg-7.display_tarjetas2
+          SlyderF(columnas="col-md-6.col-lg-6 col-xl-6")
               .tarjeta-avatar
                 img(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
                 .tarjeta.color-acento-contenido.shadow-sm.p-3.mb-5.bg-body-rounded
@@ -144,6 +144,8 @@
                   .p-4
                     h4.text-center Seguimiento
                   h5.m-0.color_num 05
+
+        Separador
 
         #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
           h2 1.1. Aspectos de la organización documental

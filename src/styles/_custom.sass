@@ -295,7 +295,7 @@ td, th
 
 .bg_imgfondo1_t2
   position: relative
-  figure, #archivo, p, .row, separador 
+  figure, #t_2_1, p, .row, separador 
     position: relative
   &::before
     content: ''
@@ -403,7 +403,7 @@ td, th
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
       width: 77.666667%
 
-.img_banner-t2-4
+//.img_banner-t2-4
   background-image: url('../assets/curso/tema2/img04.svg')
   background-repeat: no-repeat
   background-position: center
@@ -411,6 +411,27 @@ td, th
     background-position: 50% 102%
   @media screen and ( max-width: 390px)
     background-position: 50% 112%
+
+.img_banner-t2-4
+  position: relative
+  p, ul, img
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -11%
+    left: -1%
+    width: 100%
+    height: 118%
+    background-image: url('../assets/curso/tema2/img04.svg')
+    background-repeat: no-repeat
+    background-size: 102% 100% 
+    @media screen and ( max-width: 920px)
+      top: -13%
+      left: -19%
+      height: 122%
+      background-size: cover
 
   
 .bg_color6
