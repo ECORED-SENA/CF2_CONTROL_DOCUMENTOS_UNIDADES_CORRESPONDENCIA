@@ -76,7 +76,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
         h2 2.3 Procesos de la gestión documental
     
-    p.mb-4 Los procesos de la gestión documental se fundamentan en lo expuesto por la Presidencia de la República en el Decreto 2609 (2012), que determina que la gestión de documentos responde a interrogantes sobre ¿qué hacer? y ¿cómo hacer? en el trámite de los documentos de todo tipo. A continuación, se describen los procesos que debe abordar la entidad en su sistema de gestión documental, en cada uno de los elementos se presentan los subprocesos que se llevan a cabo en cada fase:
+    p.mb-4 Los procesos de la gestión documental se fundamentan en lo expuesto por la Presidencia de la República en el decreto 1080 de 2015, por el cual “se expide el Decreto Único Reglamentario del Sector Cultura” en el que se determina que la gestión de documentos responde a interrogantes sobre ¿Qué hacer? y ¿Cómo hacer? en el trámite de los documentos de todo tipo. A continuación, se describen los procesos que debe abordar la entidad en su sistema de gestión documental, en cada uno de los elementos se presentan los subprocesos que se llevan a cabo en cada fase:
 
     .row.justify-content-center
       .col-12.col-md-8.col-lg-8.col-xl-8    
@@ -181,7 +181,7 @@
         .img_ban-enlace
           .row.justify-content-end
             .col-12.col-md-10.col-lg-10
-              p.mt-0.mt-md-5 Para hacer la revisión de cada proceso, usted como aprendiz debe revisar el artículo 9º Procesos de la gestión documental del Decreto 2609 de 2012 de la Presidencia de la República en 2012 que se encuentra en el siguiente enlace:
+              p.mt-0.mt-md-5 Para hacer la revisión de cada proceso, usted como aprendiz debe revisar el artículo 9º Procesos de la gestión documental del decreto 1080 de 2015 de la Presidencia de la República que se encuentra en el siguiente enlace:
           .row.justify-content-center.mb-4
             .col-12.col-md-10.col-lg-10.ms-0.ms-md-5    
               a.anexo(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958" target="_blank")
