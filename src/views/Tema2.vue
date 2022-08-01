@@ -184,7 +184,7 @@
               p.mt-0.mt-md-5 Para hacer la revisión de cada proceso, usted como aprendiz debe revisar el artículo 9º Procesos de la gestión documental del decreto 1080 de 2015 de la Presidencia de la República que se encuentra en el siguiente enlace:
           .row.justify-content-center.mb-4
             .col-12.col-md-10.col-lg-10.ms-0.ms-md-5    
-              a.anexo(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958" target="_blank")
+              a.anexo(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76833#0" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto

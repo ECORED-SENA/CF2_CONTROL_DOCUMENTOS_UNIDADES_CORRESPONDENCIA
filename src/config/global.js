@@ -182,9 +182,9 @@ export default {
     },
     {
       referencia:
-        'Presidencia de la Republica de Colombia. (2012). Decreto 2609 de 2012. Por el cual se reglamenta el Título V de la Ley 594 de 2000, parcialmente los artículos 58 y 59 de la Ley 1437 de 2011 y se dictan otras disposiciones en materia de Gestión Documental para todas las Entidades del Estado.',
+        'Presidencia de Colombia. (2015). Decreto 1080 de 2015, por medio del cual se expide el Decreto Único Reglamentario del Sector Cultura. (26 de mayo del 2015).',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76833#0',
     },
     {
       referencia:
